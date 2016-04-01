@@ -1,0 +1,8 @@
+G = {V, E}
+Graph, Vertex, Edge
+Adjacent
+Component
+Tree
+Cycle
+Way
+Spanning tree
