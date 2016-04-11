@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="StudentBook_0.02:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="aca75b23-dfba-44ca-8e57-8f6f3e059fd1" name="Default" comment="" />
     <ignored path="StudentBook_0.02.iws" />
@@ -22,31 +27,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Connections.aai" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LessonTrees/Connections.aai">
+      <file leaf-file-name="MainMenuBar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/MainMenuBar.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
+              <caret line="130" column="2" selection-start-line="130" selection-start-column="2" selection-end-line="130" selection-end-column="2" />
+              <folding>
+                <element signature="docComment;class#MainMenuBar#0" expanded="false" />
+                <element signature="method#MainMenuBar#0;class#MainMenuBar#0" expanded="false" />
+                <element signature="class#1527:1711" expanded="false" />
+                <element signature="method#saveProfileChanges#0;class#MainMenuBar#0" expanded="false" />
+                <element signature="method#lessonStudiedChange#0;class#MainMenuBar#0" expanded="false" />
+                <element signature="method#fillStudied#0;class#MainMenuBar#0" expanded="false" />
+                <element signature="method#printhaveStudied#0;class#MainMenuBar#0" expanded="false" />
+                <element signature="method#updateMainMenuBar#0;class#MainMenuBar#0" expanded="false" />
+                <element signature="method#InitializeProfileEnvironment#0;class#MainMenuBar#0" expanded="false" />
+                <element signature="method#profilesJMenu#0;class#MainMenuBar#0" expanded="false" />
+                <element signature="method#addLesson#0;class#MainMenuBar#0" expanded="false" />
+                <element signature="method#addChooseLessonMenu#0;class#MainMenuBar#0" expanded="false" />
+                <element signature="method#launch#0;class#MainMenuBar#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tmp.sbtmp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LessonTrees/tmp.sbtmp">
+      <file leaf-file-name="Reader.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Reader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Vadim.ai" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ProfilesInfo/Vadim.ai">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.102643855">
-              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.7045101">
+              <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -78,7 +87,6 @@
         <option value="$PROJECT_DIR$/src/Lessons/Topics.sbclm" />
         <option value="$PROJECT_DIR$/src/Lessons/Multiplication.sblsnx" />
         <option value="$PROJECT_DIR$/src/Lessons/Addition.sblsnx" />
-        <option value="$PROJECT_DIR$/src/com/company/ChooseLessonMenu.java" />
         <option value="$PROJECT_DIR$/src/LessonTrees/idToLessonFileName.sbitlfn" />
         <option value="$PROJECT_DIR$/src/com/company/ReadConnections.java" />
         <option value="$PROJECT_DIR$/src/com/company/ReadCLM.java" />
@@ -87,7 +95,6 @@
         <option value="$PROJECT_DIR$/src/ProfilesInfo/Evgenia.ai" />
         <option value="$PROJECT_DIR$/src/com/company/GoodFuntions.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/company/HaveStudiedCalc.java" />
         <option value="$PROJECT_DIR$/src/Lessons/TrigonometricalFunctions.sblsnx" />
         <option value="$PROJECT_DIR$/src/Lessons/Main Trigonometrical Equotation" />
         <option value="$PROJECT_DIR$/src/Lessons/SinCosTheorems" />
@@ -96,16 +103,18 @@
         <option value="$PROJECT_DIR$/src/Lessons/DFS.sbslnx" />
         <option value="$PROJECT_DIR$/src/Lessons/BFS" />
         <option value="$PROJECT_DIR$/src/LessonTrees/idToLessonFileName.as" />
-        <option value="$PROJECT_DIR$/src/LessonTrees/Classes.sbclm" />
         <option value="$PROJECT_DIR$/src/read.me" />
         <option value="$PROJECT_DIR$/src/Lessons/GraphTheoryGlossary.sblsnx" />
         <option value="$PROJECT_DIR$/src/LessonTrees/Topics.sbclm" />
-        <option value="$PROJECT_DIR$/src/LessonTrees/tmp.sbtmp" />
-        <option value="$PROJECT_DIR$/src/com/company/MainMenuBar.java" />
-        <option value="$PROJECT_DIR$/src/com/company/GoodFunctions.java" />
         <option value="$PROJECT_DIR$/src/com/company/Reader.java" />
         <option value="$PROJECT_DIR$/src/LessonTrees/Connections.aai" />
+        <option value="$PROJECT_DIR$/src/LessonTrees/tmp.sbtmp" />
+        <option value="$PROJECT_DIR$/src/LessonTrees/Classes.sbclm" />
+        <option value="$PROJECT_DIR$/src/com/company/ChooseLessonMenu.java" />
+        <option value="$PROJECT_DIR$/src/com/company/GoodFunctions.java" />
+        <option value="$PROJECT_DIR$/src/com/company/HaveStudiedCalc.java" />
         <option value="$PROJECT_DIR$/src/ProfilesInfo/Vadim.ai" />
+        <option value="$PROJECT_DIR$/src/com/company/MainMenuBar.java" />
       </list>
     </option>
   </component>
@@ -148,6 +157,73 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudentBook_0.02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudentBook_0.02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudentBook_0.02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudentBook_0.02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudentBook_0.02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudentBook_0.02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudentBook_0.02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudentBook_0.02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudentBook_0.02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Problems" />
         <subPane subId="Production">
@@ -211,55 +287,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentBook_0.02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentBook_0.02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentBook_0.02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentBook_0.02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentBook_0.02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentBook_0.02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentBook_0.02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -268,12 +295,20 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="project&#9;ACTION&#9;ActivateProjectToolWindow" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="studentbook_0.02" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -465,7 +500,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3208502" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18645833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18645833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -476,7 +512,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -520,7 +555,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -529,21 +564,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/Reader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="101" column="12" selection-start-line="101" selection-start-column="12" selection-end-line="101" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ProfilesInfo/Vadim.ai">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -560,7 +584,19 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#MainMenuBar#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="class#1527:1711" expanded="false" />
+            <element signature="method#saveProfileChanges#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#lessonStudiedChange#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#fillStudied#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#printhaveStudied#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#updateMainMenuBar#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#InitializeProfileEnvironment#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#profilesJMenu#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#addLesson#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#addChooseLessonMenu#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#launch#0;class#MainMenuBar#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -569,9 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="111" column="34" selection-start-line="111" selection-start-column="34" selection-end-line="111" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -588,7 +621,19 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#MainMenuBar#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="class#1527:1711" expanded="false" />
+            <element signature="method#saveProfileChanges#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#lessonStudiedChange#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#fillStudied#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#printhaveStudied#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#updateMainMenuBar#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#InitializeProfileEnvironment#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#profilesJMenu#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#addLesson#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#addChooseLessonMenu#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#launch#0;class#MainMenuBar#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -597,7 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -605,9 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="111" column="34" selection-start-line="111" selection-start-column="34" selection-end-line="111" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -624,7 +665,19 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#MainMenuBar#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="class#1527:1711" expanded="false" />
+            <element signature="method#saveProfileChanges#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#lessonStudiedChange#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#fillStudied#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#printhaveStudied#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#updateMainMenuBar#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#InitializeProfileEnvironment#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#profilesJMenu#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#addLesson#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#addChooseLessonMenu#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#launch#0;class#MainMenuBar#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -633,7 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -642,7 +694,19 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#MainMenuBar#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="class#1527:1711" expanded="false" />
+            <element signature="method#saveProfileChanges#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#lessonStudiedChange#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#fillStudied#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#printhaveStudied#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#updateMainMenuBar#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#InitializeProfileEnvironment#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#profilesJMenu#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#addLesson#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#addChooseLessonMenu#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#launch#0;class#MainMenuBar#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -680,7 +744,19 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#MainMenuBar#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="class#1527:1711" expanded="false" />
+            <element signature="method#saveProfileChanges#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#lessonStudiedChange#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#fillStudied#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#printhaveStudied#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#updateMainMenuBar#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#InitializeProfileEnvironment#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#profilesJMenu#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#addLesson#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#addChooseLessonMenu#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#launch#0;class#MainMenuBar#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -698,7 +774,19 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#MainMenuBar#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="class#1527:1711" expanded="false" />
+            <element signature="method#saveProfileChanges#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#lessonStudiedChange#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#fillStudied#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#printhaveStudied#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#updateMainMenuBar#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#InitializeProfileEnvironment#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#profilesJMenu#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#addLesson#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#addChooseLessonMenu#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#launch#0;class#MainMenuBar#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -716,7 +804,19 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#MainMenuBar#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="class#1527:1711" expanded="false" />
+            <element signature="method#saveProfileChanges#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#lessonStudiedChange#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#fillStudied#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#printhaveStudied#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#updateMainMenuBar#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#InitializeProfileEnvironment#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#profilesJMenu#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#addLesson#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#addChooseLessonMenu#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#launch#0;class#MainMenuBar#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -790,7 +890,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13685848">
           <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -798,7 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3763608">
           <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -806,7 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23950233">
           <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -814,15 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/ChooseLessonMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65007776">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -830,7 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -838,15 +925,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.102643855">
           <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LessonTrees/Classes.sbclm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06842924">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -854,7 +932,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6842924">
           <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -862,59 +939,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LessonTrees/Topics.sbclm">
+    <entry file="file://$PROJECT_DIR$/src/LessonTrees/Connections.aai">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3685848">
-          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-          <folding />
+        <state vertical-scroll-proportion="0.32083333">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LessonTrees/idToLessonFileName.as">
+    <entry file="file://$PROJECT_DIR$/src/LessonTrees/tmp.sbtmp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30793157">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/HaveStudiedCalc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/GoodFunctions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/MainMenuBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="12" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Reader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4059098">
-          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.03421462">
+          <caret line="1" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -926,26 +964,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LessonTrees/Connections.aai">
+    <entry file="file://$PROJECT_DIR$/src/LessonTrees/Classes.sbclm">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
+          <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LessonTrees/tmp.sbtmp">
+    <entry file="file://$PROJECT_DIR$/src/com/company/GoodFunctions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
+          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/ChooseLessonMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7262831">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LessonTrees/idToLessonFileName.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ProfilesInfo/Vadim.ai">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.102643855">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/HaveStudiedCalc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LessonTrees/Topics.sbclm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8625">
+          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/MainMenuBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="130" column="2" selection-start-line="130" selection-start-column="2" selection-end-line="130" selection-end-column="2" />
+          <folding>
+            <element signature="docComment;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#MainMenuBar#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="class#1527:1711" expanded="false" />
+            <element signature="method#saveProfileChanges#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#lessonStudiedChange#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#fillStudied#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#printhaveStudied#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#updateMainMenuBar#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#InitializeProfileEnvironment#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#profilesJMenu#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#addLesson#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#addChooseLessonMenu#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#launch#0;class#MainMenuBar#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7045101">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -955,11 +1058,18 @@
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
-          <artifact-editor />
+          <artifact-editor>
+            <show-content>
+              <type id="library" />
+              <type id="artifact" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>StudentBook_0.02:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

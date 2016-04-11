@@ -3,13 +3,18 @@ package com.company;
 import javafx.util.Pair;
 
 import javax.swing.*;
+import javax.swing.event.MenuEvent;
+import javax.swing.event.MenuListener;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.*;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.PrintWriter;
 import java.util.Scanner;
 import java.util.Stack;
+import java.util.Vector;
+
+import static java.lang.System.exit;
 
 /**
  * Created by vadim on 28.03.2016.
@@ -19,16 +24,17 @@ public class MainMenuBar extends JFrame{
     JMenuBar mainMenuBar = new JMenuBar();
     JTextPane mainLessonTextPane = new JTextPane();
     JLabel tmpLabel = new JLabel();
+    JPanel tmpPane = new JPanel(new FlowLayout(FlowLayout.LEADING, 0, 0));
+    JCheckBox tmpCheckBox = new JCheckBox();
     JMenu topicsMenu = new JMenu(), classesMenu = new JMenu();
     String profileName = null;
-    boolean[] haveStudied_fileData;
+    boolean[] haveStudied_fileDataInitial;
     boolean[] haveStudied;
-    int nowLessonID;
-    Stack<Pair<Integer, Integer>> studyValueChangingStack;
-    static final Color studiedColor = Color.green;
-    static final Color unstudiedColor = new Color(255, 130, 130);
+    int nowLessonID = -1;
+    boolean studiedChanged = false;
 
     public MainMenuBar(){
+
         mainMenuBar.add(topicsMenu);
         mainMenuBar.add(classesMenu);
         InitializeProfileEnvironment();
@@ -37,55 +43,84 @@ public class MainMenuBar extends JFrame{
         frame.setLayout(new BorderLayout());
         tmpLabel.setText("");
         tmpLabel.setOpaque(true);
-        frame.add(tmpLabel, BorderLayout.NORTH);
+        tmpPane.add(tmpCheckBox);
+        tmpPane.add(tmpLabel);
+        tmpCheckBox.setVisible(false);
+        tmpCheckBox.setOpaque(true);
+        tmpCheckBox.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                lessonStudiedChange(tmpCheckBox.isSelected());
+            }
+        });
+        frame.add(tmpPane, BorderLayout.NORTH);
         mainLessonTextPane.setText("Your ad could be here");
         mainLessonTextPane.setEditable(false);
         frame.add(mainLessonTextPane, BorderLayout.CENTER);
-        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        frame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
+        frame.addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                if (profileName == null || !studiedChanged)
+                    System.exit(0);
+                int opt = JOptionPane.showConfirmDialog(frame, "Do you want to save changes?", "So, save?", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE);
+                if (opt == JOptionPane.NO_OPTION)
+                    System.exit(0);
+                else if (opt == JOptionPane.YES_OPTION){
+                    saveProfileChanges();
+                    System.exit(0);
+                }
+            }
+        });
         frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
         frame.pack();
         frame.setVisible(true);
     }
-    private void InitializeProfileEnvironment(){
-        if (profileName != null){
-            Reader rd = new Reader(Reader.DEFAULT_PROF_INFO_WAY, String.format("%s.ai", profileName));
-            haveStudied_fileData = GoodFunctions.intArrayToBooleanArray(rd.nextIntArray(), Main.lessonFileName.length);
-            for (int i = 0; i < haveStudied_fileData.length; i++) {
-                System.out.print(haveStudied_fileData[i]);
-                System.out.print(" ");
-            }
-            System.out.println();
-            HaveStudiedCalc hsc = new HaveStudiedCalc(haveStudied_fileData, Main.anticonnections);
-            System.out.println("connections");
-            for (int i = 0; i < Main.connections.length; i++){
-                System.out.print(i);
-                System.out.print(" :  ");
-                for (int j = 0; j < Main.connections[i].length; j++){
-                    System.out.print(Main.connections[i][j]);
-                    System.out.print(" ");
-                }
-                System.out.println();
-            }
-            System.out.println("anticonnections");
-            for (int i = 0; i < Main.anticonnections.length; i++){
-                System.out.print(i);
-                System.out.print(" :  ");
-                for (int j = 0; j < Main.anticonnections[i].length; j++){
-                    System.out.print(Main.anticonnections[i][j]);
-                    System.out.print(" ");
-                }
-                System.out.println();
-            }
-            haveStudied = hsc.getFinished();
-            System.out.println();
-            for (int i = 0; i < haveStudied.length; i++) {
-                System.out.print(haveStudied[i]);
-                System.out.print(" ");
-            }
-            studyValueChangingStack = new Stack<Pair<Integer, Integer>>();
+
+    private void saveProfileChanges() {
+        if (profileName == null)
+            return;
+        try {
+            PrintWriter writer = new PrintWriter(Reader.DEFAULT_PROF_INFO_WAY + profileName + ".ai");
+            int sz = 0;
+            for (int i = 0; i < haveStudied.length; i++)
+                sz += haveStudied[i] ? 1 : 0;
+            writer.println(sz);
+            for (int i = 0; i < haveStudied.length; i++)
+                if (haveStudied[i])
+                    writer.println(i);
+            writer.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
         }
-        else
-            studyValueChangingStack = null;
+
+    }
+
+    private void lessonStudiedChange(boolean selected) {
+        studiedChanged = true;
+        fillStudied(selected);
+        haveStudied[nowLessonID] = selected;
+        HaveStudiedCalc hsc = new HaveStudiedCalc(haveStudied, Main.connections, Main.anticonnections);
+        haveStudied = hsc.getChange(nowLessonID, selected);
+        updateMainMenuBar();
+    }
+
+    private void fillStudied(boolean selected) {
+        double d = selected ? 1 : 0;
+        tmpLabel.setBackground(GoodFunctions.getRedToGreen(d));
+        tmpCheckBox.setBackground(GoodFunctions.getRedToGreen(d));
+        tmpPane.setBackground(GoodFunctions.getRedToGreen(d));
+        tmpLabel.setText(selected ? "Studied" : "Not Studied");
+    }
+    void printhaveStudied(){
+        if (haveStudied != null) {
+            System.out.println("HaveStudied:");
+            for (int i = 0; i < haveStudied.length; i++)
+                System.out.printf("%s ", haveStudied[i]);
+            System.out.println();
+        }
+    }
+    public void updateMainMenuBar(){
         mainMenuBar.remove(topicsMenu);
         mainMenuBar.remove(classesMenu);
         topicsMenu = addChooseLessonMenu(Main.topics, 0);
@@ -93,11 +128,16 @@ public class MainMenuBar extends JFrame{
         mainMenuBar.add(classesMenu, 0);
         mainMenuBar.add(topicsMenu, 0);
     }
-    private boolean studiedLesson(int lid){ //bad way
-        if (profileName == null)
-            return false;
-        return haveStudied[lid];
+    private void InitializeProfileEnvironment(){
+        if (profileName != null){
+            Reader rd = new Reader(Reader.DEFAULT_PROF_INFO_WAY, String.format("%s.ai", profileName));
+            haveStudied_fileDataInitial = GoodFunctions.intArrayToBooleanArray(rd.nextIntArray(), Main.lessonFileName.length);
+            HaveStudiedCalc hsc = new HaveStudiedCalc(haveStudied_fileDataInitial, Main.connections, Main.anticonnections);
+            haveStudied = hsc.getFullFinished();
+        }
+        updateMainMenuBar();
     }
+
     private JMenu profilesJMenu(String[] profiles){
         JMenu res = new JMenu("Profiles");
         for (int i = 0; i < profiles.length; i++){
@@ -105,10 +145,19 @@ public class MainMenuBar extends JFrame{
             jmi.addActionListener(new ActionListener() {
                 @Override
                 public void actionPerformed(ActionEvent e) {
+                    if (profileName != null && studiedChanged) {
+                        int opt = JOptionPane.showConfirmDialog(frame, "Do you want to save changes?", "So, save?", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE);
+                        if (opt == JOptionPane.CANCEL_OPTION)
+                            return;
+                        else if (opt == JOptionPane.YES_OPTION)
+                            saveProfileChanges();
+                    }
+                    studiedChanged = false;
                     profileName = jmi.getText();
                     InitializeProfileEnvironment();
                     mainMenuBar.getMenu(2).setText(profileName);
-                    addLesson(Main.lessonFileName[nowLessonID], studiedLesson(nowLessonID));
+                    if (nowLessonID != -1)
+                        addLesson(Main.lessonFileName[nowLessonID], haveStudied[nowLessonID]);
                 }
             });
             res.add(jmi);
@@ -127,67 +176,57 @@ public class MainMenuBar extends JFrame{
         } catch (FileNotFoundException e1) {
             JOptionPane.showMessageDialog(new JPanel(), String.format("Could not open file %s\n%s", s, e1.getMessage()), "addLesson", JOptionPane.ERROR_MESSAGE);
         }
+        if (profileName != null) {
+            tmpCheckBox.setVisible(true);
+            tmpCheckBox.setSelected(done);
+            fillStudied(done);
+        }
     }
     private JMenu addChooseLessonMenu(ChooseLessonMenu[] clm, int v) {
         JMenu jm = new JMenu(clm[v].name);
         jm.setOpaque(true);
-        int countStudied = 0;
-        if (clm[v].children != null)
-        for (int i = 0; i < clm[v].children.length; i++) {
-            int u = clm[v].children[i];
-            if (clm[u].children == null || clm[u].children.length == 0){
-                JMenuItem jmi = new JMenuItem(clm[u].name);
-                jmi.setOpaque(true);
-                if (clm[u].lesson) {
-                    if (Main.lessonFileName == null || clm[u].lessonID >= Main.lessonFileName.length)
-                        continue;
-                    boolean done = studiedLesson(clm[u].lessonID);
-                    if (profileName != null) {
-
-                        if (done) {
-                            jmi.setBackground(studiedColor);
-                            countStudied++;
-                        }
-                        else
-                            jmi.setBackground(unstudiedColor);
-                    }
-                    final boolean finalDone = done;
-                    jmi.addActionListener(new ActionListener() {
-                        @Override
-                        public void actionPerformed(ActionEvent e) {
-                            nowLessonID = clm[u].lessonID;
-                            addLesson(Main.lessonFileName[nowLessonID], finalDone);
-                            if (finalDone) {
-                                tmpLabel.setBackground(studiedColor);
-                                tmpLabel.setText("Studied");
-                            } else {
-                                tmpLabel.setBackground(Color.red);
-                                tmpLabel.setText("");
+        double studiedRatio = 0;
+        if (clm[v].children != null) {
+            for (int i = 0; i < clm[v].children.length; i++) {
+                int u = clm[v].children[i];
+                if (clm[u].children == null || clm[u].children.length == 0) {
+                    JMenuItem jmi = new JMenuItem(clm[u].name);
+                    jmi.setOpaque(true);
+                    if (clm[u].lesson) {
+                        if (Main.lessonFileName == null || clm[u].lessonID >= Main.lessonFileName.length)
+                            continue;
+                        boolean done = profileName == null ? false : haveStudied[clm[u].lessonID];
+                        if (profileName != null)
+                                jmi.setBackground(GoodFunctions.getRedToGreen(done ? 1 : 0));
+                        studiedRatio += done ? 1 : 0;
+                        final boolean finalDone = done;
+                        jmi.addActionListener(new ActionListener() {
+                            @Override
+                            public void actionPerformed(ActionEvent e) {
+                                nowLessonID = clm[u].lessonID;
+                                addLesson(Main.lessonFileName[nowLessonID], finalDone);
                             }
-                            frame.repaint();
-                            tmpLabel.updateUI();
-                        }
-                    });
+                        });
+                    } else {
+                        if (profileName != null)
+                            jmi.setBackground(GoodFunctions.getRedToGreen(1));
+                        jmi.setEnabled(false);
+                        studiedRatio += 1;
+                    }
+                    jm.add(jmi);
+                } else {
+                    JMenu addinJM = addChooseLessonMenu(clm, u);
+                    jm.add(addinJM);
+                    studiedRatio += (clm[u].children == null) ? 1 : clm[u].studiedRatio;
                 }
-                else {
-                    if (profileName != null)
-                        jmi.setBackground(Color.green);
-                    countStudied++;
-                }
-                jm.add(jmi);
-            }
-            else {
-                JMenu addinJM = addChooseLessonMenu(clm, clm[v].children[i]);
-                jm.add(addinJM);
-                if (addinJM.getBackground() == Color.green)
-                    countStudied++;
             }
         }
+        clm[v].studiedRatio = studiedRatio / (double)clm[v].children.length;
         if (profileName != null && v != 0){
-            if (clm[v].children == null || clm[v].children.length == countStudied)
-                jm.setBackground(studiedColor);
+            if (clm[v].children == null)
+                jm.setBackground(GoodFunctions.getRedToGreen(1));
             else
-                jm.setBackground(unstudiedColor);
+                jm.setBackground(GoodFunctions.getRedToGreen(clm[v].studiedRatio));
         }
         return jm;
     }

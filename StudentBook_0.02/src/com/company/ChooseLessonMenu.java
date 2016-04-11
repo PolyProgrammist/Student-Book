@@ -8,6 +8,7 @@ public class ChooseLessonMenu {
     String name;
     int[] children;
     int lessonID;
+    double studiedRatio;
 
     public ChooseLessonMenu(String name, boolean lesson, int[] children) {
         this.name = name;
