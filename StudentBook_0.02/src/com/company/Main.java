@@ -20,5 +20,6 @@ public class Main {
         rd.setPath(Reader.DEFAULT_PROF_INFO_WAY, Reader.DEFAULT_PROFILES_FILE_NAME);
         profiles = rd.nextStringArray();
 	    MainMenuBar.launch();
+        rd.closeReader();
     }
 }

@@ -1,6 +1,8 @@
 package com.company;
 
 import java.awt.*;
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Vector;
 
 /**
@@ -53,5 +55,27 @@ public class GoodFunctions {
             System.out.println();
         }
         System.out.println("</Connections>");
+    }
+    public static <T> String[] addElementToArray(String[] array, String element) {
+        String[] res = new String[array.length + 1];
+        for (int i = 0; i < array.length; i++)
+            res[i] =  array[i];
+        res[array.length] = element;
+        return res;
+    }
+
+    public static int getPos(String[] profiles, String delName) {
+        for (int i = 0; i < profiles.length; i++)
+            if (profiles[i] == delName)
+                return i;
+        return -1;
+    }
+
+    public static String[] eraseElementInArray(String[] profiles, int pos) {
+        String[] res = new String[profiles.length - 1];
+        for (int i = 0; i < profiles.length; i++)
+            if (i != pos)
+                res[(i < pos) ? i :i - 1] = profiles[i];
+        return res;
     }
 }

@@ -127,4 +127,8 @@ public class Reader {
             return null;
         }
     }
+    public void closeReader(){
+        input.close();
+        scannerOk = false;
+    }
 }
