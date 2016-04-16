@@ -19,7 +19,7 @@ public class SimpleTest {
         answer = new String();
     }
 
-    public static SimpleTest addition2(String fileName){
+    public static SimpleTest addition(String fileName){
         SimpleTest ad = new SimpleTest();
         PySystemState.initialize(  );
         PythonInterpreter pi = new PythonInterpreter();
@@ -31,9 +31,10 @@ public class SimpleTest {
     }
 
     public static SimpleTest getTest(int lid) {
-        File file = new File("src\\PythonTests\\" + Main.lessonFileName[lid] + ".py");
+        String s = new String("src\\PythonTests\\" + Main.lessonFileName[lid] + ".py");
+        File file = new File(s);
         if (file.exists())
-            return addition2("src\\PythonTests\\" + Main.lessonFileName[lid] + ".py");
+            return addition(s);
         return null;
     }
 }
