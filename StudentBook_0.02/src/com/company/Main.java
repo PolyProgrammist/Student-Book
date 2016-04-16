@@ -1,5 +1,8 @@
 package com.company;
 
+import org.python.core.PySystemState;
+import org.python.util.PythonInterpreter;
+
 public class Main {
     public static String[] lessonFileName;
     public static ChooseLessonMenu[] topics;
@@ -7,6 +10,7 @@ public class Main {
     public static int[][] connections;
     public static int[][] anticonnections;
     public static String[] profiles;
+
     public static void main(String[] args) {
         Reader rd = new Reader(Reader.DEFAULT_TREES_WAY, Reader.DEFAULT_ID_TO_LES_FILE_NAME);
         lessonFileName = rd.nextStringArray();

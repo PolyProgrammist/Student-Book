@@ -1,6 +1,7 @@
 package com.company;
 
 import javafx.util.Pair;
+import org.python.core.PySystemState;
 
 import javax.swing.*;
 import javax.swing.event.MenuEvent;
@@ -49,6 +50,7 @@ public class MainMenuBar extends JFrame{
     int nowLessonID = -1;
 
     public MainMenuBar(){
+
         frame = new JFrame("StudentBook");
 
         mainMenuBar  = new JMenuBar();
@@ -85,7 +87,7 @@ public class MainMenuBar extends JFrame{
 
         JToolBar jtb = new JToolBar();
         randomLesson = new JButton();
-        randomLesson.setText("Случайный урок");
+        randomLesson.setText("Подходящий урок");
         randomLesson.setVisible(false);
         randomLesson.addActionListener(new ActionListener() {
             @Override
@@ -151,7 +153,7 @@ public class MainMenuBar extends JFrame{
     private void ChangeLessonToRandom(){
         int res = 0;
         for (int i = 0; i < haveStudied.length; i++)
-            if (!haveStudied[i] && i != nowLessonID)
+            if (!haveStudied[i] && i != nowLessonID && relevantTolearn(i))
                 res++;
         if (res == 0)
             return;
@@ -160,7 +162,7 @@ public class MainMenuBar extends JFrame{
         int tmp = -1;
         int gt = -1;
         for (int i = 0; i < haveStudied.length; i++)
-            if (!haveStudied[i] && i != nowLessonID) {
+            if (!haveStudied[i] && i != nowLessonID && relevantTolearn(i)) {
                 tmp++;
                 if (tmp == now){
                     gt = i;
@@ -170,6 +172,14 @@ public class MainMenuBar extends JFrame{
         nowLessonID = gt;
         addLesson(gt, haveStudied[gt]);
     }
+
+    private boolean relevantTolearn(int lid) {
+        for (int i = 0; i < Main.anticonnections[lid].length; i++)
+            if (!haveStudied[Main.anticonnections[lid][i]])
+                return false;
+        return true;
+    }
+
     private void saveProfileChanges() {
         if (profileName == null)
             return;
@@ -381,6 +391,7 @@ public class MainMenuBar extends JFrame{
             testPanel.setVisible(true);
             testTaskTextLabel.setText(st.task);
             testThisProblemLabel.setText(st.expression);
+            testAnswerField.setText("");
             testAnswerButton.addActionListener(new ActionListener() {
                 @Override
                 public void actionPerformed(ActionEvent e) {

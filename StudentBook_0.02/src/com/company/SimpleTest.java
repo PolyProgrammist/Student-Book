@@ -21,7 +21,7 @@ public class SimpleTest {
 
     public static SimpleTest addition(String fileName){
         SimpleTest ad = new SimpleTest();
-        PySystemState.initialize(  );
+        PySystemState.initialize();
         PythonInterpreter pi = new PythonInterpreter();
         pi.execfile(fileName);
         ad.task = (pi.get("task")).asString();
