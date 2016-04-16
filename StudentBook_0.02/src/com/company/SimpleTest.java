@@ -1,6 +1,6 @@
 package com.company;
 
-import org.python.core.PyString;
+import org.python.core.*;
 import org.python.util.PythonInterpreter;
 
 import java.io.File;
@@ -19,33 +19,21 @@ public class SimpleTest {
         answer = new String();
     }
 
-    /*public static SimpleTest addition(){
-        SimpleTest ad = new SimpleTest();
-        ad.task = "Count the sum of 2 numbers";
-        Random rnd = new Random(System.currentTimeMillis());
-        Integer a = Math.abs(rnd.nextInt()) % 20, b = Math.abs(rnd.nextInt()) % 20;
-        ad.expression = a.toString() + " + " + b.toString();
-        ad.answer = (new Integer(a + b)).toString();
-        return ad;
-    }*/
     public static SimpleTest addition2(String fileName){
         SimpleTest ad = new SimpleTest();
-        System.out.println("ad2 reached");
+        PySystemState.initialize(  );
         PythonInterpreter pi = new PythonInterpreter();
-        System.out.println("interpretator created");
         pi.execfile(fileName);
-        System.out.println("executed");
-        ad.task = ((PyString)pi.get("task")).asString();
-        ad.expression = ((PyString)pi.get("expression")).asString();
-        ad.answer = ((PyString)pi.get("answer")).asString();
-        System.out.println("ad 2 fin");
+        ad.task = (pi.get("task")).asString();
+        ad.expression = (pi.get("expression")).asString();
+        ad.answer = (pi.get("answer")).asString();
         return ad;
     }
 
     public static SimpleTest getTest(int lid) {
-        File file = new File(Main.lessonFileName[lid] + ".py");
+        File file = new File("src\\PythonTests\\" + Main.lessonFileName[lid] + ".py");
         if (file.exists())
-            return addition2(Main.lessonFileName[lid] + ".py");
+            return addition2("src\\PythonTests\\" + Main.lessonFileName[lid] + ".py");
         return null;
     }
 }
