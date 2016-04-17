@@ -33,8 +33,8 @@
       <file leaf-file-name="MainGUI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/MainGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33333334">
-              <caret line="352" column="8" selection-start-line="352" selection-start-column="8" selection-end-line="352" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.62376237">
+              <caret line="430" column="54" selection-start-line="430" selection-start-column="54" selection-end-line="430" selection-end-column="54" />
               <folding>
                 <element signature="method#prepareFrame#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#addFrameComponents#0;class#MainGUI#0" expanded="false" />
@@ -73,7 +73,6 @@
                 <element signature="method#relevantToLearn#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#changeStudentDialog#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#ChangeLessonToRandom#0;class#MainGUI#0" expanded="false" />
-                <element signature="method#createNewProfileFile#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#profileExists#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#updateProfilesFile#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#deleteProfileFile#0;class#MainGUI#0" expanded="false" />
@@ -608,12 +607,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460914670941</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="addChooseLessonRedaction_firstNullPointerException&#10;Exception in fillstudied()">
+      <created>1460918743850</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1460918743850</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -627,7 +632,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18645833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -689,7 +694,8 @@
     <MESSAGE value="Relevant lesson proposal, no results on python speed up, text editor cleaning" />
     <MESSAGE value="Refactoring started, careful save" />
     <MESSAGE value="Refactor before addChooseLesson" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor before addChooseLesson" />
+    <MESSAGE value="addChooseLessonRedaction_firstNullPointerException&#10;Exception in fillstudied()" />
+    <option name="LAST_COMMIT_MESSAGE" value="addChooseLessonRedaction_firstNullPointerException&#10;Exception in fillstudied()" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -765,7 +771,6 @@
             <element signature="method#relevantToLearn#0;class#MainGUI#0" expanded="false" />
             <element signature="method#changeStudentDialog#0;class#MainGUI#0" expanded="false" />
             <element signature="method#ChangeLessonToRandom#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#createNewProfileFile#0;class#MainGUI#0" expanded="false" />
             <element signature="method#profileExists#0;class#MainGUI#0" expanded="false" />
             <element signature="method#updateProfilesFile#0;class#MainGUI#0" expanded="false" />
             <element signature="method#deleteProfileFile#0;class#MainGUI#0" expanded="false" />
@@ -823,7 +828,6 @@
             <element signature="method#relevantToLearn#0;class#MainGUI#0" expanded="false" />
             <element signature="method#changeStudentDialog#0;class#MainGUI#0" expanded="false" />
             <element signature="method#ChangeLessonToRandom#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#createNewProfileFile#0;class#MainGUI#0" expanded="false" />
             <element signature="method#profileExists#0;class#MainGUI#0" expanded="false" />
             <element signature="method#updateProfilesFile#0;class#MainGUI#0" expanded="false" />
             <element signature="method#deleteProfileFile#0;class#MainGUI#0" expanded="false" />
@@ -902,7 +906,6 @@
             <element signature="method#relevantToLearn#0;class#MainGUI#0" expanded="false" />
             <element signature="method#changeStudentDialog#0;class#MainGUI#0" expanded="false" />
             <element signature="method#ChangeLessonToRandom#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#createNewProfileFile#0;class#MainGUI#0" expanded="false" />
             <element signature="method#profileExists#0;class#MainGUI#0" expanded="false" />
             <element signature="method#updateProfilesFile#0;class#MainGUI#0" expanded="false" />
             <element signature="method#deleteProfileFile#0;class#MainGUI#0" expanded="false" />
@@ -960,7 +963,6 @@
             <element signature="method#relevantToLearn#0;class#MainGUI#0" expanded="false" />
             <element signature="method#changeStudentDialog#0;class#MainGUI#0" expanded="false" />
             <element signature="method#ChangeLessonToRandom#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#createNewProfileFile#0;class#MainGUI#0" expanded="false" />
             <element signature="method#profileExists#0;class#MainGUI#0" expanded="false" />
             <element signature="method#updateProfilesFile#0;class#MainGUI#0" expanded="false" />
             <element signature="method#deleteProfileFile#0;class#MainGUI#0" expanded="false" />
@@ -1018,7 +1020,6 @@
             <element signature="method#relevantToLearn#0;class#MainGUI#0" expanded="false" />
             <element signature="method#changeStudentDialog#0;class#MainGUI#0" expanded="false" />
             <element signature="method#ChangeLessonToRandom#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#createNewProfileFile#0;class#MainGUI#0" expanded="false" />
             <element signature="method#profileExists#0;class#MainGUI#0" expanded="false" />
             <element signature="method#updateProfilesFile#0;class#MainGUI#0" expanded="false" />
             <element signature="method#deleteProfileFile#0;class#MainGUI#0" expanded="false" />
@@ -1274,8 +1275,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/MainGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="352" column="8" selection-start-line="352" selection-start-column="8" selection-end-line="352" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.62376237">
+          <caret line="430" column="54" selection-start-line="430" selection-start-column="54" selection-end-line="430" selection-end-column="54" />
           <folding>
             <element signature="method#prepareFrame#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addFrameComponents#0;class#MainGUI#0" expanded="false" />
@@ -1314,7 +1315,6 @@
             <element signature="method#relevantToLearn#0;class#MainGUI#0" expanded="false" />
             <element signature="method#changeStudentDialog#0;class#MainGUI#0" expanded="false" />
             <element signature="method#ChangeLessonToRandom#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#createNewProfileFile#0;class#MainGUI#0" expanded="false" />
             <element signature="method#profileExists#0;class#MainGUI#0" expanded="false" />
             <element signature="method#updateProfilesFile#0;class#MainGUI#0" expanded="false" />
             <element signature="method#deleteProfileFile#0;class#MainGUI#0" expanded="false" />
