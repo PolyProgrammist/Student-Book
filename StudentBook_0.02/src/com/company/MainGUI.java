@@ -142,6 +142,8 @@ public class MainGUI extends JFrame{
     }
     private void prepareMenuBar() {
         mainMenuBar  = new JMenuBar();
+        topicsMenu = new JMenu();
+        classesMenu = new JMenu();
         updateMainMenuBar();
         mainMenuBar.add(topicsMenu);
         mainMenuBar.add(classesMenu);
@@ -176,8 +178,6 @@ public class MainGUI extends JFrame{
     }
 
     public void updateMainMenuBar(){
-        topicsMenu = new JMenu();
-        classesMenu = new JMenu();
         chooseLessonMenuWorker(topicsMenu, Main.topics, 0);
         chooseLessonMenuWorker(classesMenu, Main.classes, 0);
     }
@@ -323,7 +323,7 @@ public class MainGUI extends JFrame{
         updateMainMenuBar();
     }
     private void fillStudied() {
-        fillStudied(nowLessonID != -1 && haveStudied[nowLessonID]);
+        fillStudied(nowLessonID != -1 && haveStudied != null && haveStudied[nowLessonID]);
     }
     private void fillStudied(boolean st){
         boolean needToShow = profileName != null && nowLessonID != -1;
@@ -351,7 +351,7 @@ public class MainGUI extends JFrame{
         nowLessonID = lid;
         addLessonMatherial();
         fillStudied();
-        addTests();//
+        addTests();
     }
     private void checkAnswer(int lid){
         String usans = testAnswerField.getText();
