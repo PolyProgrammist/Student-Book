@@ -14,11 +14,15 @@ import java.util.Random;
  */
 public class MainGUI extends JFrame{
     JFrame frame;
-    JMenuBar mainMenuBar;
+
     JTextPane mainLessonTextPane;
+
     JButton randomLesson;
-    JMenu topicsMenu = new JMenu(), classesMenu = new JMenu();
     JToolBar jtb;
+
+    JMenuBar mainMenuBar;
+    JMenu topicsMenu = new JMenu(), classesMenu = new JMenu();
+    boolean menuCreated = false;
 
     JLabel tmpLabel;
     JPanel tmpPane;
@@ -138,11 +142,12 @@ public class MainGUI extends JFrame{
     }
     private void prepareMenuBar() {
         mainMenuBar  = new JMenuBar();
+        updateMainMenuBar();
         mainMenuBar.add(topicsMenu);
         mainMenuBar.add(classesMenu);
-        updateMainMenuBar();
         JMenu profjm = profilesJMenu(Main.profiles);
         mainMenuBar.add(profjm);
+        menuCreated = true;
     }
 
 
@@ -171,12 +176,10 @@ public class MainGUI extends JFrame{
     }
 
     public void updateMainMenuBar(){
-        mainMenuBar.remove(topicsMenu);
-        mainMenuBar.remove(classesMenu);
-        topicsMenu = addChooseLessonMenu(Main.topics, 0);
-        classesMenu = addChooseLessonMenu(Main.classes, 0);
-        mainMenuBar.add(classesMenu, 0);
-        mainMenuBar.add(topicsMenu, 0);
+        topicsMenu = new JMenu();
+        classesMenu = new JMenu();
+        chooseLessonMenuWorker(topicsMenu, Main.topics, 0);
+        chooseLessonMenuWorker(classesMenu, Main.classes, 0);
     }
     private void refreshHaveStudiedNewUser(){
         Reader rd = new Reader(PathConstants.FL + PathConstants.PROF_INFO_WAY, String.format("%s.ai", profileName));
@@ -199,25 +202,25 @@ public class MainGUI extends JFrame{
             updateMainMenuBar();
         }
     }
-    private JMenu addChooseLessonMenu(ChooseLessonMenu[] clm, int v) {
-        JMenu jm = new JMenu(clm[v].name);
-        jm.setOpaque(true);
+    private void chooseLessonMenuWorker(JMenu jm, ChooseLessonMenu[] clm, int v) {
+        if (!menuCreated) {
+            jm.setText(clm[v].name);
+            jm.setOpaque(true);
+        }
         double studiedRatio = 0;
         if (clm[v].children != null) {
             for (int i = 0; i < clm[v].children.length; i++) {
                 int u = clm[v].children[i];
                 if (clm[u].children == null || clm[u].children.length == 0) {
-                    JMenuItem jmi = new JMenuItem(clm[u].name);
+                    JMenuItem jmi = menuCreated ? jm.getItem(i) : new JMenuItem(clm[u].name);
                     jmi.setOpaque(true);
                     if (clm[u].lesson) {
-                        if (Main.lessonFileName == null || clm[u].lessonID >= Main.lessonFileName.length)
-                            continue;
-                        boolean done = profileName == null ? false : haveStudied[clm[u].lessonID];
+                        boolean done = profileName != null && haveStudied[clm[u].lessonID];
                         if (profileName != null)
                                 jmi.setBackground(GoodFunctions.getRedToGreen(done ? 1 : 0));
                         studiedRatio += done ? 1 : 0;
-                        final boolean finalDone = done;
-                        jmi.addActionListener(new ActionListener() {
+                        if (!menuCreated)
+                            jmi.addActionListener(new ActionListener() {
                             @Override
                             public void actionPerformed(ActionEvent e) {
                                 addLesson(clm[u].lessonID);
@@ -229,10 +232,16 @@ public class MainGUI extends JFrame{
                         jmi.setEnabled(false);
                         studiedRatio += 1;
                     }
-                    jm.add(jmi);
+                    if (!menuCreated)
+                        jm.add(jmi);
                 } else {
-                    JMenu addinJM = addChooseLessonMenu(clm, u);
-                    jm.add(addinJM);
+                    JMenu addinJM;
+                    if (!menuCreated){
+                        addinJM = new JMenu();
+                        jm.add(addinJM);
+                    }
+                    addinJM = (JMenu)jm.getMenuComponent(i);
+                    chooseLessonMenuWorker(addinJM, clm, u);
                     studiedRatio += (clm[u].children == null) ? 1 : clm[u].studiedRatio;
                 }
             }
@@ -244,7 +253,6 @@ public class MainGUI extends JFrame{
             else
                 jm.setBackground(GoodFunctions.getRedToGreen(clm[v].studiedRatio));
         }
-        return jm;
     }
 
     private void addJMenuProfileHandling(JMenu res, String s, IUsersMethodsHandler hand){
