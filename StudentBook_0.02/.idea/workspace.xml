@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aca75b23-dfba-44ca-8e57-8f6f3e059fd1" name="Default" comment="addChooseLessonRedaction_firstNullPointerException&#10;Exception in fillstudied()&#10;I don't understand these smiles">
+    <list default="true" id="aca75b23-dfba-44ca-8e57-8f6f3e059fd1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/lib/ProfilesInfo/Evgenia.ai" afterPath="$PROJECT_DIR$/var/lib/ProfilesInfo/Evgenia.ai" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/lib/ProfilesInfo/Lol.ai" afterPath="$PROJECT_DIR$/var/lib/ProfilesInfo/Lol.ai" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/MainGUI.java" afterPath="$PROJECT_DIR$/src/com/company/MainGUI.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/lib/ProfilesInfo/Vadim.ai" afterPath="$PROJECT_DIR$/var/lib/ProfilesInfo/Vadim.ai" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -34,46 +36,37 @@
       <file leaf-file-name="MainGUI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/MainGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38398692">
-              <caret line="213" column="77" selection-start-line="213" selection-start-column="77" selection-end-line="213" selection-end-column="77" />
+            <state vertical-scroll-proportion="0.33006537">
+              <caret line="323" column="5" selection-start-line="323" selection-start-column="5" selection-end-line="323" selection-end-column="5" />
               <folding>
                 <element signature="method#prepareFrame#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#addFrameComponents#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#prepareFrameComponents#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#prepareStudiedIndicatorPanel#0;class#MainGUI#0" expanded="false" />
-                <element signature="e#2738#2739#0" expanded="true" />
-                <element signature="e#2815#2816#0" expanded="true" />
                 <element signature="method#prepareLessonMatherialPanel#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#prepareToolBar#0;class#MainGUI#0" expanded="false" />
-                <element signature="e#3453#3454#0" expanded="true" />
-                <element signature="e#3507#3508#0" expanded="true" />
                 <element signature="method#prepareTestPanel#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#prepareMenuBar#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#saveProfileChanges#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#changeHaveStudiedFromOneEdition#0;class#MainGUI#0" expanded="false" />
-                <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#refreshHaveStudiedNewUser#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#nextProfile#0;class#MainGUI#0" expanded="false" />
-                <element signature="e#7759#7760#0" expanded="true" />
-                <element signature="e#7849#7850#0" expanded="true" />
+                <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
+                <element signature="method#chooseLessonMenuWorker#0;class#MainGUI#0" expanded="false" />
+                <element signature="method#addThisItemLessonOrNotEnabledTopic#0;class#MainGUI#0" expanded="false" />
+                <element signature="method#addThisTopicContainer#0;class#MainGUI#0" expanded="false" />
+                <element signature="method#addThisNotEnabledTopic#0;class#MainGUI#0" expanded="false" />
+                <element signature="method#addThisLessonToMenu#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#addJMenuProfileHandling#0;class#MainGUI#0" expanded="false" />
-                <element signature="e#9293#9294#0" expanded="true" />
-                <element signature="e#9338#9339#0" expanded="true" />
                 <element signature="method#deleteUserClick#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#addNewUserClick#0;class#MainGUI#0" expanded="false" />
-                <element signature="e#10571#10572#0" expanded="true" />
-                <element signature="e#10623#10624#0" expanded="true" />
                 <element signature="method#profilesJMenu#0;class#MainGUI#0" expanded="false" />
-                <element signature="e#11240#11241#0" expanded="true" />
-                <element signature="e#11306#11307#0" expanded="true" />
                 <element signature="method#lessonStudiedChange#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#fillStudied#1;class#MainGUI#0" expanded="false" />
                 <element signature="method#addLessonMatherial#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#addLesson#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#checkAnswer#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#addTests#0;class#MainGUI#0" expanded="false" />
-                <element signature="class#13845:14020" expanded="false" />
-                <element signature="class#14073:14248" expanded="false" />
                 <element signature="method#relevantToLearn#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#changeStudentDialog#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#ChangeLessonToRandom#0;class#MainGUI#0" expanded="false" />
@@ -81,7 +74,6 @@
                 <element signature="method#profileExists#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#updateProfilesFile#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#deleteProfileFile#0;class#MainGUI#0" expanded="false" />
-                <element signature="method#launch#0;class#MainGUI#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -630,7 +622,13 @@
       <option name="project" value="LOCAL" />
       <updated>1460919771721</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="That's masterly done!&#10;it's just impossible&#10;addChooseLessonMenu transforms to chooseLessonMenuWorker">
+      <created>1460921169270</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1460921169271</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -713,7 +711,8 @@
     <MESSAGE value="Refactor before addChooseLesson" />
     <MESSAGE value="addChooseLessonRedaction_firstNullPointerException&#10;Exception in fillstudied()" />
     <MESSAGE value="addChooseLessonRedaction_firstNullPointerException&#10;Exception in fillstudied()&#10;I don't understand these smiles" />
-    <option name="LAST_COMMIT_MESSAGE" value="addChooseLessonRedaction_firstNullPointerException&#10;Exception in fillstudied()&#10;I don't understand these smiles" />
+    <MESSAGE value="That's masterly done!&#10;it's just impossible&#10;addChooseLessonMenu transforms to chooseLessonMenuWorker" />
+    <option name="LAST_COMMIT_MESSAGE" value="That's masterly done!&#10;it's just impossible&#10;addChooseLessonMenu transforms to chooseLessonMenuWorker" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -756,39 +755,30 @@
             <element signature="method#addFrameComponents#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareFrameComponents#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareStudiedIndicatorPanel#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#2738#2739#0" expanded="true" />
-            <element signature="e#2815#2816#0" expanded="true" />
             <element signature="method#prepareLessonMatherialPanel#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareToolBar#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#3453#3454#0" expanded="true" />
-            <element signature="e#3507#3508#0" expanded="true" />
             <element signature="method#prepareTestPanel#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareMenuBar#0;class#MainGUI#0" expanded="false" />
             <element signature="method#saveProfileChanges#0;class#MainGUI#0" expanded="false" />
             <element signature="method#changeHaveStudiedFromOneEdition#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
             <element signature="method#refreshHaveStudiedNewUser#0;class#MainGUI#0" expanded="false" />
             <element signature="method#nextProfile#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#7759#7760#0" expanded="true" />
-            <element signature="e#7849#7850#0" expanded="true" />
+            <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#chooseLessonMenuWorker#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addThisItemLessonOrNotEnabledTopic#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addThisTopicContainer#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addThisNotEnabledTopic#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addThisLessonToMenu#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addJMenuProfileHandling#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#9293#9294#0" expanded="true" />
-            <element signature="e#9338#9339#0" expanded="true" />
             <element signature="method#deleteUserClick#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addNewUserClick#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#10571#10572#0" expanded="true" />
-            <element signature="e#10623#10624#0" expanded="true" />
             <element signature="method#profilesJMenu#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#11240#11241#0" expanded="true" />
-            <element signature="e#11306#11307#0" expanded="true" />
             <element signature="method#lessonStudiedChange#0;class#MainGUI#0" expanded="false" />
             <element signature="method#fillStudied#1;class#MainGUI#0" expanded="false" />
             <element signature="method#addLessonMatherial#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addLesson#0;class#MainGUI#0" expanded="false" />
             <element signature="method#checkAnswer#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addTests#0;class#MainGUI#0" expanded="false" />
-            <element signature="class#13845:14020" expanded="false" />
-            <element signature="class#14073:14248" expanded="false" />
             <element signature="method#relevantToLearn#0;class#MainGUI#0" expanded="false" />
             <element signature="method#changeStudentDialog#0;class#MainGUI#0" expanded="false" />
             <element signature="method#ChangeLessonToRandom#0;class#MainGUI#0" expanded="false" />
@@ -796,7 +786,6 @@
             <element signature="method#profileExists#0;class#MainGUI#0" expanded="false" />
             <element signature="method#updateProfilesFile#0;class#MainGUI#0" expanded="false" />
             <element signature="method#deleteProfileFile#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#launch#0;class#MainGUI#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -817,39 +806,30 @@
             <element signature="method#addFrameComponents#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareFrameComponents#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareStudiedIndicatorPanel#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#2738#2739#0" expanded="true" />
-            <element signature="e#2815#2816#0" expanded="true" />
             <element signature="method#prepareLessonMatherialPanel#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareToolBar#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#3453#3454#0" expanded="true" />
-            <element signature="e#3507#3508#0" expanded="true" />
             <element signature="method#prepareTestPanel#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareMenuBar#0;class#MainGUI#0" expanded="false" />
             <element signature="method#saveProfileChanges#0;class#MainGUI#0" expanded="false" />
             <element signature="method#changeHaveStudiedFromOneEdition#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
             <element signature="method#refreshHaveStudiedNewUser#0;class#MainGUI#0" expanded="false" />
             <element signature="method#nextProfile#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#7759#7760#0" expanded="true" />
-            <element signature="e#7849#7850#0" expanded="true" />
+            <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#chooseLessonMenuWorker#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addThisItemLessonOrNotEnabledTopic#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addThisTopicContainer#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addThisNotEnabledTopic#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addThisLessonToMenu#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addJMenuProfileHandling#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#9293#9294#0" expanded="true" />
-            <element signature="e#9338#9339#0" expanded="true" />
             <element signature="method#deleteUserClick#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addNewUserClick#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#10571#10572#0" expanded="true" />
-            <element signature="e#10623#10624#0" expanded="true" />
             <element signature="method#profilesJMenu#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#11240#11241#0" expanded="true" />
-            <element signature="e#11306#11307#0" expanded="true" />
             <element signature="method#lessonStudiedChange#0;class#MainGUI#0" expanded="false" />
             <element signature="method#fillStudied#1;class#MainGUI#0" expanded="false" />
             <element signature="method#addLessonMatherial#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addLesson#0;class#MainGUI#0" expanded="false" />
             <element signature="method#checkAnswer#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addTests#0;class#MainGUI#0" expanded="false" />
-            <element signature="class#13845:14020" expanded="false" />
-            <element signature="class#14073:14248" expanded="false" />
             <element signature="method#relevantToLearn#0;class#MainGUI#0" expanded="false" />
             <element signature="method#changeStudentDialog#0;class#MainGUI#0" expanded="false" />
             <element signature="method#ChangeLessonToRandom#0;class#MainGUI#0" expanded="false" />
@@ -857,7 +837,6 @@
             <element signature="method#profileExists#0;class#MainGUI#0" expanded="false" />
             <element signature="method#updateProfilesFile#0;class#MainGUI#0" expanded="false" />
             <element signature="method#deleteProfileFile#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#launch#0;class#MainGUI#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -899,39 +878,30 @@
             <element signature="method#addFrameComponents#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareFrameComponents#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareStudiedIndicatorPanel#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#2738#2739#0" expanded="true" />
-            <element signature="e#2815#2816#0" expanded="true" />
             <element signature="method#prepareLessonMatherialPanel#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareToolBar#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#3453#3454#0" expanded="true" />
-            <element signature="e#3507#3508#0" expanded="true" />
             <element signature="method#prepareTestPanel#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareMenuBar#0;class#MainGUI#0" expanded="false" />
             <element signature="method#saveProfileChanges#0;class#MainGUI#0" expanded="false" />
             <element signature="method#changeHaveStudiedFromOneEdition#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
             <element signature="method#refreshHaveStudiedNewUser#0;class#MainGUI#0" expanded="false" />
             <element signature="method#nextProfile#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#7759#7760#0" expanded="true" />
-            <element signature="e#7849#7850#0" expanded="true" />
+            <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#chooseLessonMenuWorker#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addThisItemLessonOrNotEnabledTopic#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addThisTopicContainer#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addThisNotEnabledTopic#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addThisLessonToMenu#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addJMenuProfileHandling#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#9293#9294#0" expanded="true" />
-            <element signature="e#9338#9339#0" expanded="true" />
             <element signature="method#deleteUserClick#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addNewUserClick#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#10571#10572#0" expanded="true" />
-            <element signature="e#10623#10624#0" expanded="true" />
             <element signature="method#profilesJMenu#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#11240#11241#0" expanded="true" />
-            <element signature="e#11306#11307#0" expanded="true" />
             <element signature="method#lessonStudiedChange#0;class#MainGUI#0" expanded="false" />
             <element signature="method#fillStudied#1;class#MainGUI#0" expanded="false" />
             <element signature="method#addLessonMatherial#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addLesson#0;class#MainGUI#0" expanded="false" />
             <element signature="method#checkAnswer#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addTests#0;class#MainGUI#0" expanded="false" />
-            <element signature="class#13845:14020" expanded="false" />
-            <element signature="class#14073:14248" expanded="false" />
             <element signature="method#relevantToLearn#0;class#MainGUI#0" expanded="false" />
             <element signature="method#changeStudentDialog#0;class#MainGUI#0" expanded="false" />
             <element signature="method#ChangeLessonToRandom#0;class#MainGUI#0" expanded="false" />
@@ -939,7 +909,6 @@
             <element signature="method#profileExists#0;class#MainGUI#0" expanded="false" />
             <element signature="method#updateProfilesFile#0;class#MainGUI#0" expanded="false" />
             <element signature="method#deleteProfileFile#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#launch#0;class#MainGUI#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -960,39 +929,30 @@
             <element signature="method#addFrameComponents#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareFrameComponents#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareStudiedIndicatorPanel#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#2738#2739#0" expanded="true" />
-            <element signature="e#2815#2816#0" expanded="true" />
             <element signature="method#prepareLessonMatherialPanel#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareToolBar#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#3453#3454#0" expanded="true" />
-            <element signature="e#3507#3508#0" expanded="true" />
             <element signature="method#prepareTestPanel#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareMenuBar#0;class#MainGUI#0" expanded="false" />
             <element signature="method#saveProfileChanges#0;class#MainGUI#0" expanded="false" />
             <element signature="method#changeHaveStudiedFromOneEdition#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
             <element signature="method#refreshHaveStudiedNewUser#0;class#MainGUI#0" expanded="false" />
             <element signature="method#nextProfile#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#7759#7760#0" expanded="true" />
-            <element signature="e#7849#7850#0" expanded="true" />
+            <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#chooseLessonMenuWorker#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addThisItemLessonOrNotEnabledTopic#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addThisTopicContainer#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addThisNotEnabledTopic#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addThisLessonToMenu#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addJMenuProfileHandling#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#9293#9294#0" expanded="true" />
-            <element signature="e#9338#9339#0" expanded="true" />
             <element signature="method#deleteUserClick#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addNewUserClick#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#10571#10572#0" expanded="true" />
-            <element signature="e#10623#10624#0" expanded="true" />
             <element signature="method#profilesJMenu#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#11240#11241#0" expanded="true" />
-            <element signature="e#11306#11307#0" expanded="true" />
             <element signature="method#lessonStudiedChange#0;class#MainGUI#0" expanded="false" />
             <element signature="method#fillStudied#1;class#MainGUI#0" expanded="false" />
             <element signature="method#addLessonMatherial#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addLesson#0;class#MainGUI#0" expanded="false" />
             <element signature="method#checkAnswer#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addTests#0;class#MainGUI#0" expanded="false" />
-            <element signature="class#13845:14020" expanded="false" />
-            <element signature="class#14073:14248" expanded="false" />
             <element signature="method#relevantToLearn#0;class#MainGUI#0" expanded="false" />
             <element signature="method#changeStudentDialog#0;class#MainGUI#0" expanded="false" />
             <element signature="method#ChangeLessonToRandom#0;class#MainGUI#0" expanded="false" />
@@ -1000,7 +960,6 @@
             <element signature="method#profileExists#0;class#MainGUI#0" expanded="false" />
             <element signature="method#updateProfilesFile#0;class#MainGUI#0" expanded="false" />
             <element signature="method#deleteProfileFile#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#launch#0;class#MainGUI#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1021,39 +980,30 @@
             <element signature="method#addFrameComponents#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareFrameComponents#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareStudiedIndicatorPanel#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#2738#2739#0" expanded="true" />
-            <element signature="e#2815#2816#0" expanded="true" />
             <element signature="method#prepareLessonMatherialPanel#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareToolBar#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#3453#3454#0" expanded="true" />
-            <element signature="e#3507#3508#0" expanded="true" />
             <element signature="method#prepareTestPanel#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareMenuBar#0;class#MainGUI#0" expanded="false" />
             <element signature="method#saveProfileChanges#0;class#MainGUI#0" expanded="false" />
             <element signature="method#changeHaveStudiedFromOneEdition#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
             <element signature="method#refreshHaveStudiedNewUser#0;class#MainGUI#0" expanded="false" />
             <element signature="method#nextProfile#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#7759#7760#0" expanded="true" />
-            <element signature="e#7849#7850#0" expanded="true" />
+            <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#chooseLessonMenuWorker#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addThisItemLessonOrNotEnabledTopic#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addThisTopicContainer#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addThisNotEnabledTopic#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addThisLessonToMenu#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addJMenuProfileHandling#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#9293#9294#0" expanded="true" />
-            <element signature="e#9338#9339#0" expanded="true" />
             <element signature="method#deleteUserClick#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addNewUserClick#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#10571#10572#0" expanded="true" />
-            <element signature="e#10623#10624#0" expanded="true" />
             <element signature="method#profilesJMenu#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#11240#11241#0" expanded="true" />
-            <element signature="e#11306#11307#0" expanded="true" />
             <element signature="method#lessonStudiedChange#0;class#MainGUI#0" expanded="false" />
             <element signature="method#fillStudied#1;class#MainGUI#0" expanded="false" />
             <element signature="method#addLessonMatherial#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addLesson#0;class#MainGUI#0" expanded="false" />
             <element signature="method#checkAnswer#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addTests#0;class#MainGUI#0" expanded="false" />
-            <element signature="class#13845:14020" expanded="false" />
-            <element signature="class#14073:14248" expanded="false" />
             <element signature="method#relevantToLearn#0;class#MainGUI#0" expanded="false" />
             <element signature="method#changeStudentDialog#0;class#MainGUI#0" expanded="false" />
             <element signature="method#ChangeLessonToRandom#0;class#MainGUI#0" expanded="false" />
@@ -1061,7 +1011,6 @@
             <element signature="method#profileExists#0;class#MainGUI#0" expanded="false" />
             <element signature="method#updateProfilesFile#0;class#MainGUI#0" expanded="false" />
             <element signature="method#deleteProfileFile#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#launch#0;class#MainGUI#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1313,46 +1262,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/MainGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38398692">
-          <caret line="213" column="77" selection-start-line="213" selection-start-column="77" selection-end-line="213" selection-end-column="77" />
+        <state vertical-scroll-proportion="0.33006537">
+          <caret line="323" column="5" selection-start-line="323" selection-start-column="5" selection-end-line="323" selection-end-column="5" />
           <folding>
             <element signature="method#prepareFrame#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addFrameComponents#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareFrameComponents#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareStudiedIndicatorPanel#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#2738#2739#0" expanded="true" />
-            <element signature="e#2815#2816#0" expanded="true" />
             <element signature="method#prepareLessonMatherialPanel#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareToolBar#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#3453#3454#0" expanded="true" />
-            <element signature="e#3507#3508#0" expanded="true" />
             <element signature="method#prepareTestPanel#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareMenuBar#0;class#MainGUI#0" expanded="false" />
             <element signature="method#saveProfileChanges#0;class#MainGUI#0" expanded="false" />
             <element signature="method#changeHaveStudiedFromOneEdition#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
             <element signature="method#refreshHaveStudiedNewUser#0;class#MainGUI#0" expanded="false" />
             <element signature="method#nextProfile#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#7759#7760#0" expanded="true" />
-            <element signature="e#7849#7850#0" expanded="true" />
+            <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#chooseLessonMenuWorker#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addThisItemLessonOrNotEnabledTopic#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addThisTopicContainer#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addThisNotEnabledTopic#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addThisLessonToMenu#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addJMenuProfileHandling#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#9293#9294#0" expanded="true" />
-            <element signature="e#9338#9339#0" expanded="true" />
             <element signature="method#deleteUserClick#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addNewUserClick#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#10571#10572#0" expanded="true" />
-            <element signature="e#10623#10624#0" expanded="true" />
             <element signature="method#profilesJMenu#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#11240#11241#0" expanded="true" />
-            <element signature="e#11306#11307#0" expanded="true" />
             <element signature="method#lessonStudiedChange#0;class#MainGUI#0" expanded="false" />
             <element signature="method#fillStudied#1;class#MainGUI#0" expanded="false" />
             <element signature="method#addLessonMatherial#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addLesson#0;class#MainGUI#0" expanded="false" />
             <element signature="method#checkAnswer#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addTests#0;class#MainGUI#0" expanded="false" />
-            <element signature="class#13845:14020" expanded="false" />
-            <element signature="class#14073:14248" expanded="false" />
             <element signature="method#relevantToLearn#0;class#MainGUI#0" expanded="false" />
             <element signature="method#changeStudentDialog#0;class#MainGUI#0" expanded="false" />
             <element signature="method#ChangeLessonToRandom#0;class#MainGUI#0" expanded="false" />
@@ -1360,7 +1300,6 @@
             <element signature="method#profileExists#0;class#MainGUI#0" expanded="false" />
             <element signature="method#updateProfilesFile#0;class#MainGUI#0" expanded="false" />
             <element signature="method#deleteProfileFile#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#launch#0;class#MainGUI#0" expanded="false" />
           </folding>
         </state>
       </provider>

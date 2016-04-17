@@ -7,6 +7,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Objects;
 import java.util.Random;
 
 /**
@@ -100,12 +101,7 @@ public class MainGUI extends JFrame{
 
         tmpCheckBox = new JCheckBox();
         tmpCheckBox.setOpaque(true);
-        tmpCheckBox.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                lessonStudiedChange(tmpCheckBox.isSelected());
-            }
-        });
+        tmpCheckBox.addActionListener(e -> lessonStudiedChange(tmpCheckBox.isSelected()));
 
         tmpPane = new JPanel(new FlowLayout(FlowLayout.LEADING, 0, 0));
         tmpPane.add(tmpCheckBox);
@@ -120,12 +116,7 @@ public class MainGUI extends JFrame{
         randomLesson = new JButton();
         randomLesson.setText("Подходящий урок");
         randomLesson.setVisible(false);
-        randomLesson.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                ChangeLessonToRandom();
-            }
-        });
+        randomLesson.addActionListener(e -> ChangeLessonToRandom());
         jtb.add(randomLesson);
     }
     private void prepareTestPanel() {
@@ -159,8 +150,7 @@ public class MainGUI extends JFrame{
         try {
             PrintWriter writer = new PrintWriter(PathConstants.FL + PathConstants.PROF_INFO_WAY + profileName + ".ai");
             int sz = 0;
-            for (int i = 0; i < haveStudied.length; i++)
-                sz += haveStudied[i] ? 1 : 0;
+            for (boolean aHaveStudied : haveStudied) sz += aHaveStudied ? 1 : 0;
             writer.println(sz);
             for (int i = 0; i < haveStudied.length; i++)
                 if (haveStudied[i])
@@ -171,16 +161,12 @@ public class MainGUI extends JFrame{
         }
 
     }
-    void changeHaveStudiedFromOneEdition(int lid, boolean done){
+    void changeHaveStudiedFromOneEdition(boolean done){
         haveStudied[nowLessonID] = done;
         HaveStudiedCalc hsc = new HaveStudiedCalc(haveStudied, Main.connections, Main.anticonnections);
         haveStudied = hsc.getChange(nowLessonID, done);
     }
 
-    public void updateMainMenuBar(){
-        chooseLessonMenuWorker(topicsMenu, Main.topics, 0);
-        chooseLessonMenuWorker(classesMenu, Main.classes, 0);
-    }
     private void refreshHaveStudiedNewUser(){
         Reader rd = new Reader(PathConstants.FL + PathConstants.PROF_INFO_WAY, String.format("%s.ai", profileName));
         haveStudied_fileDataInitial = GoodFunctions.intArrayToBooleanArray(rd.nextIntArray(), Main.lessonFileName.length);
@@ -202,6 +188,11 @@ public class MainGUI extends JFrame{
             updateMainMenuBar();
         }
     }
+
+    public void updateMainMenuBar(){
+        chooseLessonMenuWorker(topicsMenu, Main.topics, 0);
+        chooseLessonMenuWorker(classesMenu, Main.classes, 0);
+    }
     private void chooseLessonMenuWorker(JMenu jm, ChooseLessonMenu[] clm, int v) {
         if (!menuCreated) {
             jm.setText(clm[v].name);
@@ -211,39 +202,10 @@ public class MainGUI extends JFrame{
         if (clm[v].children != null) {
             for (int i = 0; i < clm[v].children.length; i++) {
                 int u = clm[v].children[i];
-                if (clm[u].children == null || clm[u].children.length == 0) {
-                    JMenuItem jmi = menuCreated ? jm.getItem(i) : new JMenuItem(clm[u].name);
-                    jmi.setOpaque(true);
-                    if (clm[u].lesson) {
-                        boolean done = profileName != null && haveStudied[clm[u].lessonID];
-                        if (profileName != null)
-                                jmi.setBackground(GoodFunctions.getRedToGreen(done ? 1 : 0));
-                        studiedRatio += done ? 1 : 0;
-                        if (!menuCreated)
-                            jmi.addActionListener(new ActionListener() {
-                            @Override
-                            public void actionPerformed(ActionEvent e) {
-                                addLesson(clm[u].lessonID);
-                            }
-                        });
-                    } else {
-                        if (profileName != null)
-                            jmi.setBackground(GoodFunctions.getRedToGreen(1));
-                        jmi.setEnabled(false);
-                        studiedRatio += 1;
-                    }
-                    if (!menuCreated)
-                        jm.add(jmi);
-                } else {
-                    JMenu addinJM;
-                    if (!menuCreated){
-                        addinJM = new JMenu();
-                        jm.add(addinJM);
-                    }
-                    addinJM = (JMenu)jm.getMenuComponent(i);
-                    chooseLessonMenuWorker(addinJM, clm, u);
-                    studiedRatio += (clm[u].children == null) ? 1 : clm[u].studiedRatio;
-                }
+                if (clm[u].children == null || clm[u].children.length == 0)
+                    studiedRatio = addThisItemLessonOrNotEnabledTopic(jm, clm, studiedRatio, i, u);
+                else
+                    studiedRatio = addThisTopicContainer(jm, clm, studiedRatio, i, u);
             }
         }
         clm[v].studiedRatio = studiedRatio / (double)clm[v].children.length;
@@ -254,19 +216,51 @@ public class MainGUI extends JFrame{
                 jm.setBackground(GoodFunctions.getRedToGreen(clm[v].studiedRatio));
         }
     }
+    private double addThisItemLessonOrNotEnabledTopic(JMenu jm, ChooseLessonMenu[] clm, double studiedRatio, int i, int u) {
+        JMenuItem jmi = menuCreated ? jm.getItem(i) : new JMenuItem(clm[u].name);
+        jmi.setOpaque(true);
+        if (clm[u].lesson)
+            studiedRatio = addThisLessonToMenu(clm[u], studiedRatio, jmi);
+        else
+            studiedRatio = addThisNotEnabledTopic(studiedRatio, jmi);
+        if (!menuCreated)
+            jm.add(jmi);
+        return studiedRatio;
+    }
+    private double addThisTopicContainer(JMenu jm, ChooseLessonMenu[] clm, double studiedRatio, int i, int u) {
+        JMenu addinJM;
+        if (!menuCreated){
+            addinJM = new JMenu();
+            jm.add(addinJM);
+        }
+        addinJM = (JMenu)jm.getMenuComponent(i);
+        chooseLessonMenuWorker(addinJM, clm, u);
+        studiedRatio += (clm[u].children == null) ? 1 : clm[u].studiedRatio;
+        return studiedRatio;
+    }
+    private double addThisNotEnabledTopic(double studiedRatio, JMenuItem jmi) {
+        if (profileName != null)
+            jmi.setBackground(GoodFunctions.getRedToGreen(1));
+        jmi.setEnabled(false);
+        studiedRatio += 1;
+        return studiedRatio;
+    }
+    private double addThisLessonToMenu(final ChooseLessonMenu chooseLessonMenu, double studiedRatio, JMenuItem jmi) {
+        boolean done = profileName != null && haveStudied[chooseLessonMenu.lessonID];
+        if (profileName != null)
+                jmi.setBackground(GoodFunctions.getRedToGreen(done ? 1 : 0));
+        studiedRatio += done ? 1 : 0;
+        if (!menuCreated)
+            jmi.addActionListener(e -> addLesson(chooseLessonMenu.lessonID));
+        return studiedRatio;
+    }
 
     private void addJMenuProfileHandling(JMenu res, String s, IUsersMethodsHandler hand){
         JMenuItem jmi = new JMenuItem(s);
-        jmi.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                hand.handle();
-            }
-        });
+        jmi.addActionListener(e -> hand.handle());
         res.add(jmi);
     }
     private void deleteUserClick() {
-        String[] possibilities = Main.profiles;
         String delName = (String) JOptionPane.showInputDialog(frame, "Choose the name", "Name deleter", JOptionPane.PLAIN_MESSAGE, null, Main.profiles, "...");
         if (delName == null)
             return;
@@ -287,12 +281,7 @@ public class MainGUI extends JFrame{
             return;
         }
         JMenuItem jmiNewUser = new JMenuItem(newName);
-        jmiNewUser.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                nextProfile(newName);
-            }
-        });
+        jmiNewUser.addActionListener(e -> nextProfile(newName));
         mainMenuBar.getMenu(2).insert(jmiNewUser, Main.profiles.length);
         Main.profiles = GoodFunctions.addElementToArray(Main.profiles, newName);
         updateProfilesFile();
@@ -301,14 +290,9 @@ public class MainGUI extends JFrame{
     }
     private JMenu profilesJMenu(String[] profiles){
         JMenu res = new JMenu("Profiles");
-        for (int i = 0; i < profiles.length; i++){
-            JMenuItem jmi = new JMenuItem(profiles[i]);
-            jmi.addActionListener(new ActionListener() {
-                @Override
-                public void actionPerformed(ActionEvent e) {
-                    nextProfile(jmi.getText());
-                }
-            });
+        for (String profile : profiles) {
+            JMenuItem jmi = new JMenuItem(profile);
+            jmi.addActionListener(e -> nextProfile(jmi.getText()));
             res.add(jmi);
         }
         addJMenuProfileHandling(res, "Add Profile", this::addNewUserClick);
@@ -318,7 +302,7 @@ public class MainGUI extends JFrame{
     }
     private void lessonStudiedChange(boolean done) {
         studiedChanged = true;
-        changeHaveStudiedFromOneEdition(nowLessonID, done);
+        changeHaveStudiedFromOneEdition(done);
         fillStudied();
         updateMainMenuBar();
     }
@@ -376,18 +360,8 @@ public class MainGUI extends JFrame{
             testTaskTextLabel.setText(st.task);
             testThisProblemLabel.setText(st.expression);
             testAnswerField.setText("");
-            testAnswerButton.addActionListener(new ActionListener() {
-                @Override
-                public void actionPerformed(ActionEvent e) {
-                    checkAnswer(lid);
-                }
-            });
-            testAnswerField.addActionListener(new ActionListener() {
-                @Override
-                public void actionPerformed(ActionEvent e) {
-                    checkAnswer(lid);
-                }
-            });
+            testAnswerButton.addActionListener(e -> checkAnswer(lid));
+            testAnswerField.addActionListener(e -> checkAnswer(lid));
         }
         else
             testPanel.setVisible(false);
@@ -442,7 +416,7 @@ public class MainGUI extends JFrame{
     }
     private boolean profileExists(String newName) {
         for (int i = 0; i < Main.profiles.length; i++)
-            if (Main.profiles[i] == newName)
+            if (Objects.equals(Main.profiles[i], newName))
                 return true;
         return false;
     }
@@ -463,12 +437,7 @@ public class MainGUI extends JFrame{
     }
 
     public static void launch(){
-        SwingUtilities.invokeLater(new Runnable(){
-            @Override
-            public void run() {
-                new MainGUI();
-            }
-        });
+        SwingUtilities.invokeLater(MainGUI::new);
     }
 }
 
