@@ -2,4 +2,4 @@
 Vadim
 Evgenia
 Lol
-Warrior
+New Name
