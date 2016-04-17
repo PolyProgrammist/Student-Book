@@ -7,30 +7,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aca75b23-dfba-44ca-8e57-8f6f3e059fd1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/PathConstants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/GoodFunctions.class" afterPath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/GoodFunctions.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/HaveStudiedCalc.class" afterPath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/HaveStudiedCalc.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/Main.class" afterPath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/MainMenuBar$1.class" afterPath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/MainMenuBar$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/MainMenuBar$10.class" afterPath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/MainMenuBar$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/MainMenuBar$2.class" afterPath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/MainMenuBar$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/MainMenuBar$3.class" afterPath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/MainMenuBar$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/MainMenuBar$4.class" afterPath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/MainMenuBar$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/MainMenuBar$5$1.class" afterPath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/MainMenuBar$5$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/MainMenuBar$5.class" afterPath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/MainMenuBar$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/MainMenuBar$6.class" afterPath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/MainMenuBar$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/MainMenuBar$7.class" afterPath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/MainMenuBar$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/MainMenuBar$8.class" afterPath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/MainMenuBar$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/MainMenuBar$9.class" afterPath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/MainMenuBar$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/MainMenuBar.class" afterPath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/MainMenuBar.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/Reader.class" afterPath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/Reader.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/SimpleTest.class" afterPath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/SimpleTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentBook_0.02/ProfilesInfo/Evgenia.ai" afterPath="$PROJECT_DIR$/out/production/StudentBook_0.02/ProfilesInfo/Evgenia.ai" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/GoodFunctions.java" afterPath="$PROJECT_DIR$/src/com/company/GoodFunctions.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/HaveStudiedCalc.java" afterPath="$PROJECT_DIR$/src/com/company/HaveStudiedCalc.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="$PROJECT_DIR$/src/com/company/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/MainMenuBar.java" afterPath="$PROJECT_DIR$/src/com/company/MainMenuBar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentBook_0.02/ProfilesInfo/Profiles.as" afterPath="$PROJECT_DIR$/out/production/StudentBook_0.02/ProfilesInfo/Profiles.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ProfilesInfo/Profiles.as" afterPath="$PROJECT_DIR$/src/ProfilesInfo/Profiles.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Reader.java" afterPath="$PROJECT_DIR$/src/com/company/Reader.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/SimpleTest.java" afterPath="$PROJECT_DIR$/src/com/company/SimpleTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentBook_0.02/ProfilesInfo/Vadim.ai" afterPath="$PROJECT_DIR$/out/production/StudentBook_0.02/ProfilesInfo/Vadim.ai" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentBook_0.02/read.me" afterPath="$PROJECT_DIR$/out/production/StudentBook_0.02/read.me" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/read.me" afterPath="$PROJECT_DIR$/src/read.me" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="C:\Users\vadim\Documents\Home\Коды запуска ракет\Home\Progs\NowProjects\StudentBook\conference11\StudentBook_0.02\src\ProfilesInfo\Lol.ai" afterPath="$PROJECT_DIR$/var/lib/ProfilesInfo/Lol.ai" />
+      <change type="MOVED" beforePath="C:\Users\vadim\Documents\Home\Коды запуска ракет\Home\Progs\NowProjects\StudentBook\conference11\StudentBook_0.02\src\Lessons\Multiplication.sblsnx" afterPath="$PROJECT_DIR$/var/lib/Lessons/Multiplication.sblsnx" />
+      <change type="MOVED" beforePath="C:\Users\vadim\Documents\Home\Коды запуска ракет\Home\Progs\NowProjects\StudentBook\conference11\StudentBook_0.02\src\ProfilesInfo\Vadim.ai" afterPath="$PROJECT_DIR$/var/lib/ProfilesInfo/Vadim.ai" />
+      <change type="MOVED" beforePath="C:\Users\vadim\Documents\Home\Коды запуска ракет\Home\Progs\NowProjects\StudentBook\conference11\StudentBook_0.02\src\Lessons\GraphTheoryGlossary.sblsnx" afterPath="$PROJECT_DIR$/var/lib/Lessons/GraphTheoryGlossary.sblsnx" />
+      <change type="MOVED" beforePath="C:\Users\vadim\Documents\Home\Коды запуска ракет\Home\Progs\NowProjects\StudentBook\conference11\StudentBook_0.02\src\Lessons\DFS.sblsnx" afterPath="$PROJECT_DIR$/var/lib/Lessons/DFS.sblsnx" />
+      <change type="MOVED" beforePath="C:\Users\vadim\Documents\Home\Коды запуска ракет\Home\Progs\NowProjects\StudentBook\conference11\StudentBook_0.02\src\ProfilesInfo\Profiles.as" afterPath="$PROJECT_DIR$/var/lib/ProfilesInfo/Profiles.as" />
+      <change type="MOVED" beforePath="C:\Users\vadim\Documents\Home\Коды запуска ракет\Home\Progs\NowProjects\StudentBook\conference11\StudentBook_0.02\src\Lessons\Addition.sblsnx" afterPath="$PROJECT_DIR$/var/lib/Lessons/Addition.sblsnx" />
+      <change type="MOVED" beforePath="C:\Users\vadim\Documents\Home\Коды запуска ракет\Home\Progs\NowProjects\StudentBook\conference11\StudentBook_0.02\src\LessonTrees\idToLessonFileName.as" afterPath="$PROJECT_DIR$/var/lib/LessonTrees/idToLessonFileName.as" />
+      <change type="MOVED" beforePath="C:\Users\vadim\Documents\Home\Коды запуска ракет\Home\Progs\NowProjects\StudentBook\conference11\StudentBook_0.02\src\LessonTrees\Connections.aai" afterPath="$PROJECT_DIR$/var/lib/LessonTrees/Connections.aai" />
+      <change type="MOVED" beforePath="C:\Users\vadim\Documents\Home\Коды запуска ракет\Home\Progs\NowProjects\StudentBook\conference11\StudentBook_0.02\src\LessonTrees\Topics.sbclm" afterPath="$PROJECT_DIR$/var/lib/LessonTrees/Topics.sbclm" />
+      <change type="MOVED" beforePath="C:\Users\vadim\Documents\Home\Коды запуска ракет\Home\Progs\NowProjects\StudentBook\conference11\StudentBook_0.02\src\ProfilesInfo\Evgenia.ai" afterPath="$PROJECT_DIR$/var/lib/ProfilesInfo/Evgenia.ai" />
+      <change type="MOVED" beforePath="C:\Users\vadim\Documents\Home\Коды запуска ракет\Home\Progs\NowProjects\StudentBook\conference11\StudentBook_0.02\src\Lessons\SinCosTheorems.sblsnx" afterPath="$PROJECT_DIR$/var/lib/Lessons/SinCosTheorems.sblsnx" />
+      <change type="MOVED" beforePath="C:\Users\vadim\Documents\Home\Коды запуска ракет\Home\Progs\NowProjects\StudentBook\conference11\StudentBook_0.02\src\PythonTests\Multiplication.py" afterPath="$PROJECT_DIR$/var/lib/PythonTests/Multiplication.py" />
+      <change type="MOVED" beforePath="C:\Users\vadim\Documents\Home\Коды запуска ракет\Home\Progs\NowProjects\StudentBook\conference11\StudentBook_0.02\src\LessonTrees\Classes.sbclm" afterPath="$PROJECT_DIR$/var/lib/LessonTrees/Classes.sbclm" />
+      <change type="MOVED" beforePath="C:\Users\vadim\Documents\Home\Коды запуска ракет\Home\Progs\NowProjects\StudentBook\conference11\StudentBook_0.02\src\PythonTests\Addition.py" afterPath="$PROJECT_DIR$/var/lib/PythonTests/Addition.py" />
+      <change type="MOVED" beforePath="C:\Users\vadim\Documents\Home\Коды запуска ракет\Home\Progs\NowProjects\StudentBook\conference11\StudentBook_0.02\src\LessonTrees\tmp.sbtmp" afterPath="$PROJECT_DIR$/var/lib/LessonTrees/tmp.sbtmp" />
+      <change type="MOVED" beforePath="C:\Users\vadim\Documents\Home\Коды запуска ракет\Home\Progs\NowProjects\StudentBook\conference11\StudentBook_0.02\src\Lessons\BFS.sblsnx" afterPath="$PROJECT_DIR$/var/lib/Lessons/BFS.sblsnx" />
+      <change type="MOVED" beforePath="C:\Users\vadim\Documents\Home\Коды запуска ракет\Home\Progs\NowProjects\StudentBook\conference11\StudentBook_0.02\src\Lessons\TrigonometricalFunctions.sblsnx" afterPath="$PROJECT_DIR$/var/lib/Lessons/TrigonometricalFunctions.sblsnx" />
+      <change type="MOVED" beforePath="C:\Users\vadim\Documents\Home\Коды запуска ракет\Home\Progs\NowProjects\StudentBook\conference11\StudentBook_0.02\src\Lessons\MainTrigonometricalIdentity.sblsnx" afterPath="$PROJECT_DIR$/var/lib/Lessons/MainTrigonometricalIdentity.sblsnx" />
+      <change type="MOVED" beforePath="C:\Users\vadim\Documents\Home\Коды запуска ракет\Home\Progs\NowProjects\StudentBook\conference11\StudentBook_0.02\src\com\company\MainMenuBar.java" afterPath="$PROJECT_DIR$/src/com/company/MainGUI.java" />
     </list>
     <ignored path="StudentBook_0.02.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,41 +60,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainMenuBar.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/MainMenuBar.java">
+      <file leaf-file-name="MainGUI.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/MainGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43837753">
-              <caret line="392" column="56" selection-start-line="392" selection-start-column="56" selection-end-line="392" selection-end-column="56" />
+            <state vertical-scroll-proportion="0.33073324">
+              <caret line="224" column="30" selection-start-line="224" selection-start-column="30" selection-end-line="224" selection-end-column="30" />
               <folding>
-                <element signature="method#MainMenuBar#0;class#MainMenuBar#0" expanded="false" />
-                <element signature="method#changeStudentDialog#0;class#MainMenuBar#0" expanded="false" />
-                <element signature="method#saveProfileChanges#0;class#MainMenuBar#0" expanded="false" />
-                <element signature="method#lessonStudiedChange#0;class#MainMenuBar#0" expanded="false" />
-                <element signature="method#fillStudied#0;class#MainMenuBar#0" expanded="false" />
-                <element signature="method#printhaveStudied#0;class#MainMenuBar#0" expanded="false" />
-                <element signature="method#updateMainMenuBar#0;class#MainMenuBar#0" expanded="false" />
-                <element signature="method#InitializeProfileEnvironment#0;class#MainMenuBar#0" expanded="false" />
-                <element signature="method#nextProfile#0;class#MainMenuBar#0" expanded="false" />
-                <element signature="method#profilesJMenu#0;class#MainMenuBar#0" expanded="false" />
-                <element signature="method#deleteProfileFile#0;class#MainMenuBar#0" expanded="false" />
-                <element signature="method#createNewProfileFile#0;class#MainMenuBar#0" expanded="false" />
-                <element signature="method#profileExists#0;class#MainMenuBar#0" expanded="false" />
-                <element signature="method#updateProfilesFile#0;class#MainMenuBar#0" expanded="false" />
-                <element signature="method#checkAnswer#0;class#MainMenuBar#0" expanded="false" />
-                <element signature="method#addChooseLessonMenu#0;class#MainMenuBar#0" expanded="false" />
-                <element signature="method#launch#0;class#MainMenuBar#0" expanded="false" />
+                <element signature="method#MainGUI#0;class#MainGUI#0" expanded="false" />
+                <element signature="class#1554:1738" expanded="false" />
+                <element signature="method#changeStudentDialog#0;class#MainGUI#0" expanded="false" />
+                <element signature="method#ChangeLessonToRandom#0;class#MainGUI#0" expanded="false" />
+                <element signature="method#relevantTolearn#0;class#MainGUI#0" expanded="false" />
+                <element signature="method#saveProfileChanges#0;class#MainGUI#0" expanded="false" />
+                <element signature="method#lessonStudiedChange#0;class#MainGUI#0" expanded="false" />
+                <element signature="method#fillStudied#0;class#MainGUI#0" expanded="false" />
+                <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
+                <element signature="method#InitializeProfileEnvironment#0;class#MainGUI#0" expanded="false" />
+                <element signature="method#nextProfile#0;class#MainGUI#0" expanded="false" />
+                <element signature="method#profilesJMenu#0;class#MainGUI#0" expanded="false" />
+                <element signature="method#deleteProfileFile#0;class#MainGUI#0" expanded="false" />
+                <element signature="method#createNewProfileFile#0;class#MainGUI#0" expanded="false" />
+                <element signature="method#profileExists#0;class#MainGUI#0" expanded="false" />
+                <element signature="method#updateProfilesFile#0;class#MainGUI#0" expanded="false" />
+                <element signature="method#checkAnswer#0;class#MainGUI#0" expanded="false" />
+                <element signature="method#addTests#0;class#MainGUI#0" expanded="false" />
+                <element signature="method#addChooseLessonMenu#0;class#MainGUI#0" expanded="false" />
+                <element signature="method#launch#0;class#MainGUI#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/SimpleTest.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#loadEnvironmentFromFiles#0;class#Main#0" expanded="false" />
+                <element signature="method#main#0;class#Main#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Reader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Reader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="81" column="30" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
+              <folding>
+                <element signature="method#nextIntArrayArray#0;class#Reader#0" expanded="false" />
+                <element signature="method#nextIntArray#0;class#Reader#0" expanded="false" />
+                <element signature="method#nextStringArray#0;class#Reader#0" expanded="false" />
+                <element signature="method#nextCLM_Array#0;class#Reader#0" expanded="false" />
+                <element signature="method#nextTextFile#0;class#Reader#0" expanded="false" />
+                <element signature="method#setPath#0;class#Reader#0" expanded="false" />
+                <element signature="method#closeReader#0;class#Reader#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -139,16 +169,19 @@
         <option value="$PROJECT_DIR$/src/LessonTrees/tmp.sbtmp" />
         <option value="$PROJECT_DIR$/src/LessonTrees/Classes.sbclm" />
         <option value="$PROJECT_DIR$/src/com/company/ChooseLessonMenu.java" />
-        <option value="$PROJECT_DIR$/src/com/company/HaveStudiedCalc.java" />
         <option value="$PROJECT_DIR$/src/ProfilesInfo/Vadim.ai" />
-        <option value="$PROJECT_DIR$/src/com/company/GoodFunctions.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Reader.java" />
         <option value="$PROJECT_DIR$/src/ProfilesInfo/Profiles.as" />
         <option value="$PROJECT_DIR$/src/PythonTests/Multiplication.py" />
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/company/SimpleTest.java" />
         <option value="$PROJECT_DIR$/src/read.me" />
+        <option value="$PROJECT_DIR$/src/com/company/PahtConstants.java" />
         <option value="$PROJECT_DIR$/src/com/company/MainMenuBar.java" />
+        <option value="$PROJECT_DIR$/src/com/company/PathConstants.java" />
+        <option value="$PROJECT_DIR$/src/com/company/SimpleTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/HaveStudiedCalc.java" />
+        <option value="$PROJECT_DIR$/src/com/company/GoodFunctions.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Reader.java" />
+        <option value="$PROJECT_DIR$/src/com/company/MainGUI.java" />
       </list>
     </option>
   </component>
@@ -221,59 +254,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentBook_0.02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentBook_0.02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentBook_0.02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentBook_0.02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentBook_0.02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentBook_0.02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentBook_0.02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="company" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Problems" />
         <subPane subId="Production">
@@ -337,6 +317,59 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudentBook_0.02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudentBook_0.02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudentBook_0.02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudentBook_0.02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudentBook_0.02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudentBook_0.02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudentBook_0.02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -361,13 +394,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.company" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vadim\Documents\Home\Коды запуска ракет\Home\Progs\NowProjects\StudentBook\conference11\StudentBook_0.02\var\lib" />
       <recent name="C:\Users\К-318-1\Desktop\Здесь ваши данные\Володин\SomeStupidBranch17_04\PolyProgrammist-conference11-50a3830bbe0c\StudentBook_0.02\src\Multiplication" />
       <recent name="C:\Users\vadim\Documents\Home\Коды запуска ракет\Home\Progs\IDEA_projectrs\StudentBook_0.02\src\LessonTrees" />
       <recent name="C:\Users\vadim\Documents\Home\Коды запуска ракет\Home\Progs\IDEA_projectrs\StudentBook_0.02\src\com\company" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.company" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -540,7 +574,13 @@
       <option name="project" value="LOCAL" />
       <updated>1460817864260</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Relevant lesson proposal, no results on python speed up, text editor cleaning">
+      <created>1460823679522</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1460823679522</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -553,12 +593,14 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="896" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3228745" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18645833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -570,9 +612,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="896" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -616,11 +656,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit from Intellij Idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit from Intellij Idea" />
+    <MESSAGE value="Relevant lesson proposal, no results on python speed up, text editor cleaning" />
+    <option name="LAST_COMMIT_MESSAGE" value="Relevant lesson proposal, no results on python speed up, text editor cleaning" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="18" />
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -629,33 +670,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/MainMenuBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#MainMenuBar#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#changeStudentDialog#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#saveProfileChanges#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#lessonStudiedChange#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#fillStudied#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#printhaveStudied#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#updateMainMenuBar#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#InitializeProfileEnvironment#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#nextProfile#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#profilesJMenu#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#deleteProfileFile#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#createNewProfileFile#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#profileExists#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#updateProfilesFile#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#checkAnswer#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#addChooseLessonMenu#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#launch#0;class#MainMenuBar#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LessonTrees/idToLessonFileName.as">
+    <entry file="file://$PROJECT_DIR$/var/lib/LessonTrees/idToLessonFileName.as">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
@@ -676,115 +691,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/MainMenuBar.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/MainGUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#MainMenuBar#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#changeStudentDialog#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#saveProfileChanges#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#lessonStudiedChange#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#fillStudied#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#printhaveStudied#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#updateMainMenuBar#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#InitializeProfileEnvironment#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#nextProfile#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#profilesJMenu#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#deleteProfileFile#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#createNewProfileFile#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#profileExists#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#updateProfilesFile#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#checkAnswer#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#addChooseLessonMenu#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#launch#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#MainGUI#0;class#MainGUI#0" expanded="false" />
+            <element signature="class#1554:1738" expanded="false" />
+            <element signature="method#changeStudentDialog#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#ChangeLessonToRandom#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#relevantTolearn#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#saveProfileChanges#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#lessonStudiedChange#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#fillStudied#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#InitializeProfileEnvironment#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#nextProfile#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#profilesJMenu#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#deleteProfileFile#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#createNewProfileFile#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#profileExists#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#updateProfilesFile#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#checkAnswer#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addTests#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addChooseLessonMenu#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#launch#0;class#MainGUI#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LessonTrees/idToLessonFileName.as">
+    <entry file="file://$PROJECT_DIR$/var/lib/LessonTrees/idToLessonFileName.as">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/MainMenuBar.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/MainGUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#MainMenuBar#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#changeStudentDialog#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#saveProfileChanges#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#lessonStudiedChange#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#fillStudied#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#printhaveStudied#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#updateMainMenuBar#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#InitializeProfileEnvironment#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#nextProfile#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#profilesJMenu#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#deleteProfileFile#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#createNewProfileFile#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#profileExists#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#updateProfilesFile#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#checkAnswer#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#addChooseLessonMenu#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#launch#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#MainGUI#0;class#MainGUI#0" expanded="false" />
+            <element signature="class#1554:1738" expanded="false" />
+            <element signature="method#changeStudentDialog#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#ChangeLessonToRandom#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#relevantTolearn#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#saveProfileChanges#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#lessonStudiedChange#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#fillStudied#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#InitializeProfileEnvironment#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#nextProfile#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#profilesJMenu#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#deleteProfileFile#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#createNewProfileFile#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#profileExists#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#updateProfilesFile#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#checkAnswer#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addTests#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addChooseLessonMenu#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#launch#0;class#MainGUI#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LessonTrees/Classes.sbclm">
+    <entry file="file://$PROJECT_DIR$/var/lib/LessonTrees/Classes.sbclm">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LessonTrees/Topics.sbclm">
+    <entry file="file://$PROJECT_DIR$/var/lib/LessonTrees/Topics.sbclm">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lessons/Multiplication.sblsnx">
+    <entry file="file://$PROJECT_DIR$/var/lib/Lessons/Multiplication.sblsnx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lessons/Addition.sblsnx">
+    <entry file="file://$PROJECT_DIR$/var/lib/Lessons/Addition.sblsnx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/MainMenuBar.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/MainGUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding>
-            <element signature="method#MainMenuBar#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#changeStudentDialog#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#saveProfileChanges#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#lessonStudiedChange#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#fillStudied#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#printhaveStudied#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#updateMainMenuBar#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#InitializeProfileEnvironment#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#nextProfile#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#profilesJMenu#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#deleteProfileFile#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#createNewProfileFile#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#profileExists#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#updateProfilesFile#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#checkAnswer#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#addChooseLessonMenu#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#launch#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#MainGUI#0;class#MainGUI#0" expanded="false" />
+            <element signature="class#1554:1738" expanded="false" />
+            <element signature="method#changeStudentDialog#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#ChangeLessonToRandom#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#relevantTolearn#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#saveProfileChanges#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#lessonStudiedChange#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#fillStudied#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#InitializeProfileEnvironment#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#nextProfile#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#profilesJMenu#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#deleteProfileFile#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#createNewProfileFile#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#profileExists#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#updateProfilesFile#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#checkAnswer#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addTests#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addChooseLessonMenu#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#launch#0;class#MainGUI#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -796,28 +820,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/MainMenuBar.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/MainGUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding>
-            <element signature="method#MainMenuBar#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#changeStudentDialog#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#saveProfileChanges#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#lessonStudiedChange#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#fillStudied#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#printhaveStudied#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#updateMainMenuBar#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#InitializeProfileEnvironment#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#nextProfile#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#profilesJMenu#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#deleteProfileFile#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#createNewProfileFile#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#profileExists#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#updateProfilesFile#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#checkAnswer#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#addChooseLessonMenu#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#launch#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#MainGUI#0;class#MainGUI#0" expanded="false" />
+            <element signature="class#1554:1738" expanded="false" />
+            <element signature="method#changeStudentDialog#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#ChangeLessonToRandom#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#relevantTolearn#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#saveProfileChanges#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#lessonStudiedChange#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#fillStudied#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#InitializeProfileEnvironment#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#nextProfile#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#profilesJMenu#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#deleteProfileFile#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#createNewProfileFile#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#profileExists#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#updateProfilesFile#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#checkAnswer#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addTests#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addChooseLessonMenu#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#launch#0;class#MainGUI#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -829,28 +856,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/MainMenuBar.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/MainGUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#MainMenuBar#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#changeStudentDialog#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#saveProfileChanges#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#lessonStudiedChange#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#fillStudied#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#printhaveStudied#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#updateMainMenuBar#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#InitializeProfileEnvironment#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#nextProfile#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#profilesJMenu#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#deleteProfileFile#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#createNewProfileFile#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#profileExists#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#updateProfilesFile#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#checkAnswer#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#addChooseLessonMenu#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#launch#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#MainGUI#0;class#MainGUI#0" expanded="false" />
+            <element signature="class#1554:1738" expanded="false" />
+            <element signature="method#changeStudentDialog#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#ChangeLessonToRandom#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#relevantTolearn#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#saveProfileChanges#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#lessonStudiedChange#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#fillStudied#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#InitializeProfileEnvironment#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#nextProfile#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#profilesJMenu#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#deleteProfileFile#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#createNewProfileFile#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#profileExists#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#updateProfilesFile#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#checkAnswer#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addTests#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addChooseLessonMenu#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#launch#0;class#MainGUI#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -873,56 +903,56 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/util/concurrent/locks/LockSupport.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/awt/EventDispatchThread.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class" />
-    <entry file="file://$PROJECT_DIR$/src/Lessons/SinCosTheorems.sblsnx">
+    <entry file="file://$PROJECT_DIR$/var/lib/Lessons/SinCosTheorems.sblsnx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lessons/BFS.sblsnx">
+    <entry file="file://$PROJECT_DIR$/var/lib/Lessons/BFS.sblsnx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lessons/DFS.sblsnx">
+    <entry file="file://$PROJECT_DIR$/var/lib/Lessons/DFS.sblsnx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lessons/MainTrigonometricalIdentity.sblsnx">
+    <entry file="file://$PROJECT_DIR$/var/lib/Lessons/MainTrigonometricalIdentity.sblsnx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lessons/Multiplication.sblsnx">
+    <entry file="file://$PROJECT_DIR$/var/lib/Lessons/Multiplication.sblsnx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lessons/TrigonometricalFunctions.sblsnx">
+    <entry file="file://$PROJECT_DIR$/var/lib/Lessons/TrigonometricalFunctions.sblsnx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lessons/GraphTheoryGlossary.sblsnx">
+    <entry file="file://$PROJECT_DIR$/var/lib/Lessons/GraphTheoryGlossary.sblsnx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LessonTrees/Connections.aai">
+    <entry file="file://$PROJECT_DIR$/var/lib/LessonTrees/Connections.aai">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
@@ -930,7 +960,7 @@
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/lang/Runnable.java" />
-    <entry file="file://$PROJECT_DIR$/src/LessonTrees/idToLessonFileName.as">
+    <entry file="file://$PROJECT_DIR$/var/lib/LessonTrees/idToLessonFileName.as">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
@@ -938,114 +968,66 @@
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/awt/GridBagLayout.java" />
-    <entry file="file://$PROJECT_DIR$/src/ProfilesInfo/Evgenia.ai">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProfilesInfo/Vadim.ai">
+    <entry file="file://$PROJECT_DIR$/var/lib/ProfilesInfo/Vadim.ai">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProfilesInfo/Profiles.as">
+    <entry file="file://$PROJECT_DIR$/var/lib/ProfilesInfo/Profiles.as">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/HaveStudiedCalc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/GoodFunctions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/ChooseLessonMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Reader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lessons/Addition.sblsnx">
+    <entry file="file://$PROJECT_DIR$/var/lib/Lessons/Addition.sblsnx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LessonTrees/Classes.sbclm">
+    <entry file="file://$PROJECT_DIR$/var/lib/LessonTrees/Classes.sbclm">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LessonTrees/Topics.sbclm">
+    <entry file="file://$PROJECT_DIR$/var/lib/LessonTrees/Topics.sbclm">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LessonTrees/tmp.sbtmp">
+    <entry file="file://$PROJECT_DIR$/var/lib/LessonTrees/tmp.sbtmp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PythonTests/Multiplication.py">
+    <entry file="file://$PROJECT_DIR$/var/lib/PythonTests/Multiplication.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProfilesInfo/Warrior.ai">
+    <entry file="file://$PROJECT_DIR$/var/lib/ProfilesInfo/Warrior.ai">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PythonTests/Addition.py">
+    <entry file="file://$PROJECT_DIR$/var/lib/PythonTests/Addition.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1053,42 +1035,128 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/PathConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/lib/ProfilesInfo/Evgenia.ai">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/HaveStudiedCalc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5148206">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+          <folding>
+            <element signature="method#HaveStudiedCalc#0;class#HaveStudiedCalc#0" expanded="false" />
+            <element signature="method#getFullFinished#0;class#HaveStudiedCalc#0" expanded="false" />
+            <element signature="method#getChange#0;class#HaveStudiedCalc#0" expanded="false" />
+            <element signature="method#DFSChange#0;class#HaveStudiedCalc#0" expanded="false" />
+            <element signature="method#DFS#0;class#HaveStudiedCalc#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/GoodFunctions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41185647">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+          <folding>
+            <element signature="method#intArrayToBooleanArray#0;class#GoodFunctions#0" expanded="false" />
+            <element signature="method#makeTransParentGraph#0;class#GoodFunctions#0" expanded="false" />
+            <element signature="method#getRedToGreen#0;class#GoodFunctions#0" expanded="false" />
+            <element signature="method#graphPrinter#0;class#GoodFunctions#0" expanded="false" />
+            <element signature="method#addElementToArray#0;class#GoodFunctions#0" expanded="false" />
+            <element signature="method#getPos#0;class#GoodFunctions#0" expanded="false" />
+            <element signature="method#eraseElementInArray#0;class#GoodFunctions#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/ChooseLessonMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17160687">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/SimpleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.5834633">
+          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#SimpleTest#0;class#SimpleTest#0" expanded="false" />
+            <element signature="method#addition#0;class#SimpleTest#0" expanded="false" />
+            <element signature="method#getTest#0;class#SimpleTest#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/MainMenuBar.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Reader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43837753">
-          <caret line="392" column="56" selection-start-line="392" selection-start-column="56" selection-end-line="392" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="81" column="30" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
           <folding>
-            <element signature="method#MainMenuBar#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#changeStudentDialog#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#saveProfileChanges#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#lessonStudiedChange#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#fillStudied#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#printhaveStudied#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#updateMainMenuBar#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#InitializeProfileEnvironment#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#nextProfile#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#profilesJMenu#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#deleteProfileFile#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#createNewProfileFile#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#profileExists#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#updateProfilesFile#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#checkAnswer#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#addChooseLessonMenu#0;class#MainMenuBar#0" expanded="false" />
-            <element signature="method#launch#0;class#MainMenuBar#0" expanded="false" />
+            <element signature="method#nextIntArrayArray#0;class#Reader#0" expanded="false" />
+            <element signature="method#nextIntArray#0;class#Reader#0" expanded="false" />
+            <element signature="method#nextStringArray#0;class#Reader#0" expanded="false" />
+            <element signature="method#nextCLM_Array#0;class#Reader#0" expanded="false" />
+            <element signature="method#nextTextFile#0;class#Reader#0" expanded="false" />
+            <element signature="method#setPath#0;class#Reader#0" expanded="false" />
+            <element signature="method#closeReader#0;class#Reader#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="method#loadEnvironmentFromFiles#0;class#Main#0" expanded="false" />
+            <element signature="method#main#0;class#Main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/MainGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33073324">
+          <caret line="224" column="30" selection-start-line="224" selection-start-column="30" selection-end-line="224" selection-end-column="30" />
+          <folding>
+            <element signature="method#MainGUI#0;class#MainGUI#0" expanded="false" />
+            <element signature="class#1554:1738" expanded="false" />
+            <element signature="method#changeStudentDialog#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#ChangeLessonToRandom#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#relevantTolearn#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#saveProfileChanges#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#lessonStudiedChange#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#fillStudied#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#InitializeProfileEnvironment#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#nextProfile#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#profilesJMenu#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#deleteProfileFile#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#createNewProfileFile#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#profileExists#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#updateProfilesFile#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#checkAnswer#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addTests#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addChooseLessonMenu#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#launch#0;class#MainGUI#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -31,7 +31,7 @@ public class SimpleTest {
     }
 
     public static SimpleTest getTest(int lid) {
-        String s = new String("src\\PythonTests\\" + Main.lessonFileName[lid] + ".py");
+        String s = new String(PathConstants.FL + PathConstants.PYTHONLIBS_WAY + Main.lessonFileName[lid] + ".py");
         File file = new File(s);
         if (file.exists())
             return addition(s);

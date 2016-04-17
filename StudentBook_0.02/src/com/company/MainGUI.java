@@ -1,30 +1,19 @@
 package com.company;
 
-import javafx.util.Pair;
-import org.python.core.PySystemState;
-
 import javax.swing.*;
-import javax.swing.event.MenuEvent;
-import javax.swing.event.MenuListener;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.nio.file.Files;
-import java.nio.file.Path;
 import java.util.Random;
 import java.util.Scanner;
-import java.util.Stack;
-import java.util.Vector;
-
-import static java.lang.System.exit;
 
 /**
  * Created by vadim on 28.03.2016.
  */
-public class MainMenuBar extends JFrame{
+public class MainGUI extends JFrame{
     JFrame frame;
     JMenuBar mainMenuBar;
     JTextPane mainLessonTextPane;
@@ -49,7 +38,7 @@ public class MainMenuBar extends JFrame{
 
     int nowLessonID = -1;
 
-    public MainMenuBar(){
+    public MainGUI(){
 
         frame = new JFrame("StudentBook");
 
@@ -184,7 +173,7 @@ public class MainMenuBar extends JFrame{
         if (profileName == null)
             return;
         try {
-            PrintWriter writer = new PrintWriter(Reader.DEFAULT_PROF_INFO_WAY + profileName + ".ai");
+            PrintWriter writer = new PrintWriter(PathConstants.FL + PathConstants.PROF_INFO_WAY + profileName + ".ai");
             int sz = 0;
             for (int i = 0; i < haveStudied.length; i++)
                 sz += haveStudied[i] ? 1 : 0;
@@ -215,14 +204,6 @@ public class MainMenuBar extends JFrame{
         tmpLabel.setVisible(true);
         tmpCheckBox.setVisible(true);
     }
-    void printhaveStudied(){
-        if (haveStudied != null) {
-            System.out.println("HaveStudied:");
-            for (int i = 0; i < haveStudied.length; i++)
-                System.out.printf("%s ", haveStudied[i]);
-            System.out.println();
-        }
-    }
     public void updateMainMenuBar(){
         mainMenuBar.remove(topicsMenu);
         mainMenuBar.remove(classesMenu);
@@ -233,7 +214,7 @@ public class MainMenuBar extends JFrame{
     }
     private void InitializeProfileEnvironment(){
         if (profileName != null){
-            Reader rd = new Reader(Reader.DEFAULT_PROF_INFO_WAY, String.format("%s.ai", profileName));
+            Reader rd = new Reader(PathConstants.FL + PathConstants.PROF_INFO_WAY, String.format("%s.ai", profileName));
             haveStudied_fileDataInitial = GoodFunctions.intArrayToBooleanArray(rd.nextIntArray(), Main.lessonFileName.length);
             HaveStudiedCalc hsc = new HaveStudiedCalc(haveStudied_fileDataInitial, Main.connections, Main.anticonnections);
             haveStudied = hsc.getFullFinished();
@@ -319,12 +300,12 @@ public class MainMenuBar extends JFrame{
         return res;
     }
     private void deleteProfileFile(String delName) {
-        String delPath = Reader.DEFAULT_PROF_INFO_WAY + delName + ".ai";
+        String delPath = PathConstants.FL + PathConstants.PROF_INFO_WAY + delName + ".ai";
         File file = new File(delPath);
         file.delete();
     }
     private void createNewProfileFile(String newName) {
-        String destination = Reader.DEFAULT_PROF_INFO_WAY + newName + ".ai";
+        String destination = PathConstants.FL + PathConstants.PROF_INFO_WAY + newName + ".ai";
         File f = new File (destination);
         try {
             f.createNewFile();
@@ -343,7 +324,7 @@ public class MainMenuBar extends JFrame{
     }
     private void updateProfilesFile() {
         try {
-            PrintWriter writer = new PrintWriter(Reader.DEFAULT_PROF_INFO_WAY + Reader.DEFAULT_PROFILES_FILE_NAME);
+            PrintWriter writer = new PrintWriter(PathConstants.FL + PathConstants.PROF_INFO_WAY + PathConstants.PROFILES_FILE_NAME);
             writer.println(Main.profiles.length);
             for (int i = 0; i < Main.profiles.length; i++)
                 writer.println(Main.profiles[i]);
@@ -352,24 +333,20 @@ public class MainMenuBar extends JFrame{
             e.printStackTrace();
         }
     }
+    private void addLessonMatherial(int lid){
+        Reader rd = new Reader(PathConstants.FL + PathConstants.LESSONS_WAY, Main.lessonFileName[lid] + PathConstants.LESSON_EXTENSION);
+        mainLessonTextPane.setText(rd.nextTextFile());
+        rd.closeReader();
+    }
     private void addLesson(int lid, boolean done){
-        String s = Reader.DEFAULT_LESSONS_WAY + Main.lessonFileName[lid] + Reader.LESSON_EXTENSION;
-        try {
-            File file = new File(s);
-            String res = new String();
-            Scanner sc = new Scanner(file);
-            while (sc.hasNext())
-                res += sc.nextLine() + '\n';
-            mainLessonTextPane.setText(res);
-            sc.close();
-        } catch (FileNotFoundException e1) {
-            JOptionPane.showMessageDialog(new JPanel(), String.format("Could not open file %s\n%s", s, e1.getMessage()), "addLesson", JOptionPane.ERROR_MESSAGE);
-        }
+        nowLessonID = lid;
+        addLessonMatherial(lid);
         if (profileName != null) {
             tmpCheckBox.setVisible(true);
             tmpCheckBox.setSelected(done);
             fillStudied(done);
         }
+        fillStudied(haveStudied[lid]);
         addTests(lid);
     }
     private void checkAnswer(int lid){
@@ -461,7 +438,7 @@ public class MainMenuBar extends JFrame{
         SwingUtilities.invokeLater(new Runnable(){
             @Override
             public void run() {
-                new MainMenuBar();
+                new MainGUI();
             }
         });
     }
