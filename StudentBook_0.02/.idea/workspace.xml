@@ -22,7 +22,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="C:\Users\vadim\Documents\Home\Коды запуска ракет\Home\Progs\NowProjects\StudentBook\conference11\StudentBook_0.02" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -33,8 +33,8 @@
       <file leaf-file-name="MainGUI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/MainGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.62376237">
-              <caret line="430" column="54" selection-start-line="430" selection-start-column="54" selection-end-line="430" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.69636965">
+              <caret line="432" column="40" selection-start-line="432" selection-start-column="40" selection-end-line="432" selection-end-column="40" />
               <folding>
                 <element signature="method#prepareFrame#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#addFrameComponents#0;class#MainGUI#0" expanded="false" />
@@ -68,8 +68,8 @@
                 <element signature="method#addLessonMatherial#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#checkAnswer#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#addTests#0;class#MainGUI#0" expanded="false" />
-                <element signature="class#13822:13997" expanded="false" />
-                <element signature="class#14050:14225" expanded="false" />
+                <element signature="class#13824:13999" expanded="false" />
+                <element signature="class#14052:14227" expanded="false" />
                 <element signature="method#relevantToLearn#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#changeStudentDialog#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#ChangeLessonToRandom#0;class#MainGUI#0" expanded="false" />
@@ -613,7 +613,13 @@
       <option name="project" value="LOCAL" />
       <updated>1460918743850</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="addChooseLessonRedaction_firstNullPointerException&#10;Exception in fillstudied()">
+      <created>1460918964635</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1460918964635</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -766,8 +772,8 @@
             <element signature="method#addLessonMatherial#0;class#MainGUI#0" expanded="false" />
             <element signature="method#checkAnswer#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addTests#0;class#MainGUI#0" expanded="false" />
-            <element signature="class#13822:13997" expanded="false" />
-            <element signature="class#14050:14225" expanded="false" />
+            <element signature="class#13824:13999" expanded="false" />
+            <element signature="class#14052:14227" expanded="false" />
             <element signature="method#relevantToLearn#0;class#MainGUI#0" expanded="false" />
             <element signature="method#changeStudentDialog#0;class#MainGUI#0" expanded="false" />
             <element signature="method#ChangeLessonToRandom#0;class#MainGUI#0" expanded="false" />
@@ -823,8 +829,8 @@
             <element signature="method#addLessonMatherial#0;class#MainGUI#0" expanded="false" />
             <element signature="method#checkAnswer#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addTests#0;class#MainGUI#0" expanded="false" />
-            <element signature="class#13822:13997" expanded="false" />
-            <element signature="class#14050:14225" expanded="false" />
+            <element signature="class#13824:13999" expanded="false" />
+            <element signature="class#14052:14227" expanded="false" />
             <element signature="method#relevantToLearn#0;class#MainGUI#0" expanded="false" />
             <element signature="method#changeStudentDialog#0;class#MainGUI#0" expanded="false" />
             <element signature="method#ChangeLessonToRandom#0;class#MainGUI#0" expanded="false" />
@@ -901,8 +907,8 @@
             <element signature="method#addLessonMatherial#0;class#MainGUI#0" expanded="false" />
             <element signature="method#checkAnswer#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addTests#0;class#MainGUI#0" expanded="false" />
-            <element signature="class#13822:13997" expanded="false" />
-            <element signature="class#14050:14225" expanded="false" />
+            <element signature="class#13824:13999" expanded="false" />
+            <element signature="class#14052:14227" expanded="false" />
             <element signature="method#relevantToLearn#0;class#MainGUI#0" expanded="false" />
             <element signature="method#changeStudentDialog#0;class#MainGUI#0" expanded="false" />
             <element signature="method#ChangeLessonToRandom#0;class#MainGUI#0" expanded="false" />
@@ -958,8 +964,8 @@
             <element signature="method#addLessonMatherial#0;class#MainGUI#0" expanded="false" />
             <element signature="method#checkAnswer#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addTests#0;class#MainGUI#0" expanded="false" />
-            <element signature="class#13822:13997" expanded="false" />
-            <element signature="class#14050:14225" expanded="false" />
+            <element signature="class#13824:13999" expanded="false" />
+            <element signature="class#14052:14227" expanded="false" />
             <element signature="method#relevantToLearn#0;class#MainGUI#0" expanded="false" />
             <element signature="method#changeStudentDialog#0;class#MainGUI#0" expanded="false" />
             <element signature="method#ChangeLessonToRandom#0;class#MainGUI#0" expanded="false" />
@@ -1015,8 +1021,8 @@
             <element signature="method#addLessonMatherial#0;class#MainGUI#0" expanded="false" />
             <element signature="method#checkAnswer#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addTests#0;class#MainGUI#0" expanded="false" />
-            <element signature="class#13822:13997" expanded="false" />
-            <element signature="class#14050:14225" expanded="false" />
+            <element signature="class#13824:13999" expanded="false" />
+            <element signature="class#14052:14227" expanded="false" />
             <element signature="method#relevantToLearn#0;class#MainGUI#0" expanded="false" />
             <element signature="method#changeStudentDialog#0;class#MainGUI#0" expanded="false" />
             <element signature="method#ChangeLessonToRandom#0;class#MainGUI#0" expanded="false" />
@@ -1275,8 +1281,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/MainGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62376237">
-          <caret line="430" column="54" selection-start-line="430" selection-start-column="54" selection-end-line="430" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.69636965">
+          <caret line="432" column="40" selection-start-line="432" selection-start-column="40" selection-end-line="432" selection-end-column="40" />
           <folding>
             <element signature="method#prepareFrame#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addFrameComponents#0;class#MainGUI#0" expanded="false" />
@@ -1310,8 +1316,8 @@
             <element signature="method#addLessonMatherial#0;class#MainGUI#0" expanded="false" />
             <element signature="method#checkAnswer#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addTests#0;class#MainGUI#0" expanded="false" />
-            <element signature="class#13822:13997" expanded="false" />
-            <element signature="class#14050:14225" expanded="false" />
+            <element signature="class#13824:13999" expanded="false" />
+            <element signature="class#14052:14227" expanded="false" />
             <element signature="method#relevantToLearn#0;class#MainGUI#0" expanded="false" />
             <element signature="method#changeStudentDialog#0;class#MainGUI#0" expanded="false" />
             <element signature="method#ChangeLessonToRandom#0;class#MainGUI#0" expanded="false" />

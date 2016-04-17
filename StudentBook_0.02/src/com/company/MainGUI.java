@@ -351,7 +351,7 @@ public class MainGUI extends JFrame{
         nowLessonID = lid;
         addLessonMatherial();
         fillStudied();
-        addTests();
+        addTests();//
     }
     private void checkAnswer(int lid){
         String usans = testAnswerField.getText();
