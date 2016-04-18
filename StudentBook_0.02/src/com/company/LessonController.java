@@ -84,7 +84,7 @@ public class LessonController implements Serializable {
         nowLessonID = lid;
         addLessonMaterial();
         mainGUI.getSomeProfileHandler().fillStudied();
-        mainGUI.addTests(lid);
+        //mainGUI.addTests(lid);
     }
 
     public void menuCreatedTrue() {

@@ -2,7 +2,8 @@ package com.company;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 
 public class MainGUI extends JFrame{
     final Profile profile = new Profile(this);
@@ -49,27 +50,12 @@ public class MainGUI extends JFrame{
         frame.pack();
         frame.setVisible(true);
     }
-    private void addFrameComponents() {
+    private void addFrameComponents(){
         frame.setJMenuBar(mainMenuBar);
-        frame.setLayout(new GridBagLayout());
-
-        GridBagConstraints gbc = new GridBagConstraints();
-        gbc.fill = GridBagConstraints.HORIZONTAL;
-        gbc.gridx = 0;
-        gbc.weighty = 0;
-        gbc.weightx = 1;
-        gbc.anchor = GridBagConstraints.FIRST_LINE_START;
-
-        gbc.gridy = 0;
-        frame.add(jtb, gbc);
-        gbc.gridy = 1;
-        frame.add(tmpPane, gbc);
-
-        gbc.weighty = 1;
-        gbc.gridy = 2;
-        frame.add(mainLessonTextPane, gbc);
-        gbc.gridy = 3;
-        frame.add(testPanelForPanels, gbc);
+        frame.setLayout(new BoxLayout(frame.getContentPane(), BoxLayout.Y_AXIS));
+        frame.add(tmpPane);
+        frame.add(mainLessonTextPane);
+        frame.add(testPanelForPanels);
     }
     private void prepareFrameComponents() {
         prepareMenuBar();

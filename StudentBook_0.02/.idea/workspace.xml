@@ -7,16 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aca75b23-dfba-44ca-8e57-8f6f3e059fd1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/lib/LessonTrees/CorrespondingTests.aai" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/TestPanel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/lib/TestsInfo/idToTestFileName.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/ChooseLessonMenu.class" afterPath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/ChooseLessonMenu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/GoodFunctions.class" afterPath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/GoodFunctions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/HaveStudiedCalc.class" afterPath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/HaveStudiedCalc.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/Reader.class" afterPath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/Reader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/SimpleTest.class" afterPath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/SimpleTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/LessonController.java" afterPath="$PROJECT_DIR$/src/com/company/LessonController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/MainGUI.java" afterPath="$PROJECT_DIR$/src/com/company/MainGUI.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -40,22 +31,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainGUI.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainGUI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/MainGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="107" column="8" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.048361935">
+              <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
               <folding>
                 <element signature="method#prepareFrame#0;class#MainGUI#0" expanded="false" />
-                <element signature="class#1040:1245" expanded="false" />
-                <element signature="method#windowClosing#0;class#1040:1245" expanded="false" />
+                <element signature="class#1087:1292" expanded="false" />
+                <element signature="method#windowClosing#0;class#1087:1292" expanded="false" />
+                <element signature="method#addFrameComponents#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#prepareFrameComponents#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#prepareStudiedIndicatorPanel#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#prepareLessonMatherialPanel#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#prepareToolBar#0;class#MainGUI#0" expanded="false" />
+                <element signature="method#prepareTestPanels#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#prepareMenuBar#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
-                <element signature="e#3920#3951#0" expanded="false" />
                 <element signature="method#addLessonOnLPane#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#fillStudied#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#showNowProfile#0;class#MainGUI#0" expanded="false" />
@@ -66,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LessonController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LessonController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/LessonController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7145086">
-              <caret line="86" column="7" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="86" column="10" selection-start-line="86" selection-start-column="10" selection-end-line="86" selection-end-column="10" />
               <folding>
                 <element signature="method#chooseLessonMenuWorker#0;class#LessonController#0" expanded="false" />
                 <element signature="method#addThisItemLessonOrNotEnabledTopic#0;class#LessonController#0" expanded="false" />
@@ -182,8 +174,8 @@
         <option value="$PROJECT_DIR$/var/lib/PythonTests/idToTestFileName.as" />
         <option value="$PROJECT_DIR$/var/lib/LessonTrees/CorrespondingTests.aai" />
         <option value="$PROJECT_DIR$/src/com/company/TestPanel.java" />
-        <option value="$PROJECT_DIR$/src/com/company/MainGUI.java" />
         <option value="$PROJECT_DIR$/src/com/company/LessonController.java" />
+        <option value="$PROJECT_DIR$/src/com/company/MainGUI.java" />
       </list>
     </option>
   </component>
@@ -687,7 +679,13 @@
       <option name="project" value="LOCAL" />
       <updated>1461001024499</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Just try boxly">
+      <created>1461005059246</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1461005059246</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -777,7 +775,8 @@
     <MESSAGE value="Methods are great.&#10;Next task: separate by classes" />
     <MESSAGE value="Great refactoring almost completed" />
     <MESSAGE value="Some IDEA settings and clearing /*creator*/ inf" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some IDEA settings and clearing /*creator*/ inf" />
+    <MESSAGE value="Just try boxly" />
+    <option name="LAST_COMMIT_MESSAGE" value="Just try boxly" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -796,15 +795,16 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#prepareFrame#0;class#MainGUI#0" expanded="false" />
-            <element signature="class#1040:1245" expanded="false" />
-            <element signature="method#windowClosing#0;class#1040:1245" expanded="false" />
+            <element signature="class#1087:1292" expanded="false" />
+            <element signature="method#windowClosing#0;class#1087:1292" expanded="false" />
+            <element signature="method#addFrameComponents#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareFrameComponents#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareStudiedIndicatorPanel#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareLessonMatherialPanel#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareToolBar#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#prepareTestPanels#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareMenuBar#0;class#MainGUI#0" expanded="false" />
             <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#3920#3951#0" expanded="false" />
             <element signature="method#addLessonOnLPane#0;class#MainGUI#0" expanded="false" />
             <element signature="method#fillStudied#0;class#MainGUI#0" expanded="false" />
             <element signature="method#showNowProfile#0;class#MainGUI#0" expanded="false" />
@@ -848,15 +848,16 @@
           <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding>
             <element signature="method#prepareFrame#0;class#MainGUI#0" expanded="false" />
-            <element signature="class#1040:1245" expanded="false" />
-            <element signature="method#windowClosing#0;class#1040:1245" expanded="false" />
+            <element signature="class#1087:1292" expanded="false" />
+            <element signature="method#windowClosing#0;class#1087:1292" expanded="false" />
+            <element signature="method#addFrameComponents#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareFrameComponents#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareStudiedIndicatorPanel#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareLessonMatherialPanel#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareToolBar#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#prepareTestPanels#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareMenuBar#0;class#MainGUI#0" expanded="false" />
             <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#3920#3951#0" expanded="false" />
             <element signature="method#addLessonOnLPane#0;class#MainGUI#0" expanded="false" />
             <element signature="method#fillStudied#0;class#MainGUI#0" expanded="false" />
             <element signature="method#showNowProfile#0;class#MainGUI#0" expanded="false" />
@@ -879,15 +880,16 @@
           <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding>
             <element signature="method#prepareFrame#0;class#MainGUI#0" expanded="false" />
-            <element signature="class#1040:1245" expanded="false" />
-            <element signature="method#windowClosing#0;class#1040:1245" expanded="false" />
+            <element signature="class#1087:1292" expanded="false" />
+            <element signature="method#windowClosing#0;class#1087:1292" expanded="false" />
+            <element signature="method#addFrameComponents#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareFrameComponents#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareStudiedIndicatorPanel#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareLessonMatherialPanel#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareToolBar#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#prepareTestPanels#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareMenuBar#0;class#MainGUI#0" expanded="false" />
             <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#3920#3951#0" expanded="false" />
             <element signature="method#addLessonOnLPane#0;class#MainGUI#0" expanded="false" />
             <element signature="method#fillStudied#0;class#MainGUI#0" expanded="false" />
             <element signature="method#showNowProfile#0;class#MainGUI#0" expanded="false" />
@@ -910,15 +912,16 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#prepareFrame#0;class#MainGUI#0" expanded="false" />
-            <element signature="class#1040:1245" expanded="false" />
-            <element signature="method#windowClosing#0;class#1040:1245" expanded="false" />
+            <element signature="class#1087:1292" expanded="false" />
+            <element signature="method#windowClosing#0;class#1087:1292" expanded="false" />
+            <element signature="method#addFrameComponents#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareFrameComponents#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareStudiedIndicatorPanel#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareLessonMatherialPanel#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareToolBar#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#prepareTestPanels#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareMenuBar#0;class#MainGUI#0" expanded="false" />
             <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#3920#3951#0" expanded="false" />
             <element signature="method#addLessonOnLPane#0;class#MainGUI#0" expanded="false" />
             <element signature="method#fillStudied#0;class#MainGUI#0" expanded="false" />
             <element signature="method#showNowProfile#0;class#MainGUI#0" expanded="false" />
@@ -1227,34 +1230,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/MainGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="107" column="8" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="8" />
-          <folding>
-            <element signature="method#prepareFrame#0;class#MainGUI#0" expanded="false" />
-            <element signature="class#1040:1245" expanded="false" />
-            <element signature="method#windowClosing#0;class#1040:1245" expanded="false" />
-            <element signature="method#prepareFrameComponents#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#prepareStudiedIndicatorPanel#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#prepareLessonMatherialPanel#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#prepareToolBar#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#prepareMenuBar#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#3920#3951#0" expanded="false" />
-            <element signature="method#addLessonOnLPane#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#fillStudied#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#showNowProfile#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#doSomethingToShowIfCanGetRelevantLesson#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#addToProfilesJMenu#0;class#MainGUI#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/LessonController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7145086">
-          <caret line="86" column="7" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="86" column="10" selection-start-line="86" selection-start-column="10" selection-end-line="86" selection-end-column="10" />
           <folding>
             <element signature="method#chooseLessonMenuWorker#0;class#LessonController#0" expanded="false" />
             <element signature="method#addThisItemLessonOrNotEnabledTopic#0;class#LessonController#0" expanded="false" />
@@ -1262,6 +1241,31 @@
             <element signature="method#addThisNotEnabledTopic#0;class#LessonController#0" expanded="false" />
             <element signature="method#addThisLessonToMenu#0;class#LessonController#0" expanded="false" />
             <element signature="method#addLessonMaterial#0;class#LessonController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/MainGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.048361935">
+          <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
+          <folding>
+            <element signature="method#prepareFrame#0;class#MainGUI#0" expanded="false" />
+            <element signature="class#1087:1292" expanded="false" />
+            <element signature="method#windowClosing#0;class#1087:1292" expanded="false" />
+            <element signature="method#addFrameComponents#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#prepareFrameComponents#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#prepareStudiedIndicatorPanel#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#prepareLessonMatherialPanel#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#prepareToolBar#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#prepareTestPanels#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#prepareMenuBar#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addLessonOnLPane#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#fillStudied#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#showNowProfile#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#doSomethingToShowIfCanGetRelevantLesson#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addToProfilesJMenu#0;class#MainGUI#0" expanded="false" />
           </folding>
         </state>
       </provider>
