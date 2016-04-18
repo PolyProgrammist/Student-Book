@@ -14,7 +14,6 @@ public class ChooseLessonMenu {
 
 
     }
-
     public ChooseLessonMenu() {
     }
 }

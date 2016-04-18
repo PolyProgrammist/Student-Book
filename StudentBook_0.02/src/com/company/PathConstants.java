@@ -11,6 +11,9 @@ public class PathConstants {
     public static final String PROF_INFO_WAY = "ProfilesInfo\\";
     public static final String PROFILES_FILE_NAME = "Profiles.as";
     public static final String PYTHONLIBS_WAY = "PythonTests\\";
+    public static final String TESTS_INFO_WAY = "TestsInfo\\";
+    public static final String TESTS_INFO_FILE_NAME = "idToTestFileName.as";
+    public static final String ID_TO_TESTS_IDS_FILE_NAME = "CorrespondingTests.aai";
 
     public static final String FL = "var\\lib\\";
 }

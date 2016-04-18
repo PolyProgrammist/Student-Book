@@ -10,11 +10,14 @@ public class TestPanel extends JPanel {
     JButton testAnswerButton;
     SimpleTest st;
 
+    private boolean goodAnswer(String usans) {
+        return usans == st.answer;
+    }
     private void checkAnswer(int tid){
         String usans = testAnswerField.getText();
         if (usans == null || usans.equals(""))
             return;
-        if (usans.equals(st.answer)) {
+        if (goodAnswer(usans)) {
             st = SimpleTest.getTest(tid);
             testThisProblemLabel.setText(st.expression);
             testAnswerField.setText("");
@@ -24,14 +27,13 @@ public class TestPanel extends JPanel {
             testAnswerButton.setText("Wrong");
     }
     public TestPanel(int tid){
-        if (tid == -1)
-            return;
         JPanel s = new JPanel();
         st = SimpleTest.getTest(tid);
         if (st != null){
             testTaskTextLabel = new JLabel(st.task);
             testThisProblemLabel = new JLabel(st.expression);
             testAnswerField = new JTextField("");
+            testAnswerButton = new JButton("Check answer");
             testAnswerButton.addActionListener(e -> checkAnswer(tid));
             testAnswerField.addActionListener(e -> checkAnswer(tid));
 

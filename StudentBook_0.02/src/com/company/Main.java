@@ -7,6 +7,8 @@ public class Main {
     public static int[][] connections;
     public static int[][] anticonnections;
     public static String[] profiles;
+    public static int[][] lesToTests;
+    public static String[] testFileName;
 
     public static void loadEnvironmentFromFiles(){
         String spc = PathConstants.FL;
@@ -19,8 +21,15 @@ public class Main {
         classes = rd.nextCLM_Array();
         rd.setFileName(PathConstants.TOPICS_FILE_NAME);
         topics = rd.nextCLM_Array();
+        rd.setFileName(PathConstants.ID_TO_TESTS_IDS_FILE_NAME);
+        lesToTests = rd.nextIntArrayArray();
+
         rd.setPath(spc + PathConstants.PROF_INFO_WAY, PathConstants.PROFILES_FILE_NAME);
         profiles = rd.nextStringArray();
+
+        rd.setPath(spc + PathConstants.TESTS_INFO_WAY, PathConstants.TESTS_INFO_FILE_NAME);
+        testFileName = rd.nextStringArray();
+
         rd.closeReader();
     }
 

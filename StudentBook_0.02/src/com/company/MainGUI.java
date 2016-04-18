@@ -92,7 +92,7 @@ public class MainGUI extends JFrame{
     }
     private void prepareTestPanels() {
         testPanelForPanels = new JPanel();
-
+        testPanelForPanels.setLayout(new BoxLayout(testPanelForPanels, BoxLayout.Y_AXIS));
     }
     private void prepareMenuBar() {
         mainMenuBar  = new JMenuBar();
@@ -111,38 +111,13 @@ public class MainGUI extends JFrame{
         lessonController.chooseLessonMenuWorker(classesMenu, Main.classes, 0);
     }
 
-    //<editor-fold desc="testcode">
-    /*
-    private void checkAnswer(int lid){
-        String usans = testAnswerField.getText();
-        if (usans == null || usans.equals(""))
-            return;
-        if (usans.equals(st.answer)) {
-            st = SimpleTest.getTest(lid);
-            testThisProblemLabel.setText(st.expression);
-            testAnswerField.setText("");
-            testAnswerButton.setText("Right");
-        }
-        else
-            testAnswerButton.setText("Wrong");
-    }
-    public void addTests(int lid) {
+    void addTests(int lid){
+        testPanelForPanels.removeAll();
         if (lid == -1)
             return;
-        st = SimpleTest.getTest(lid);
-        if (st != null){
-            testPanel.setVisible(true);
-            testTaskTextLabel.setText(st.task);
-            testThisProblemLabel.setText(st.expression);
-            testAnswerField.setText("");
-            testAnswerButton.addActionListener(e -> checkAnswer(lid));
-            testAnswerField.addActionListener(e -> checkAnswer(lid));
-        }
-        else
-            testPanel.setVisible(false);
+        for (int tid : Main.lesToTests[lid])
+            testPanelForPanels.add(new TestPanel(tid));
     }
-    */
-    //</editor-fold>
 
     public void addLessonOnLPane(int nowLessonID) {
         Reader rd = new Reader(PathConstants.FL + PathConstants.LESSONS_WAY, Main.lessonFileName[nowLessonID] + PathConstants.LESSON_EXTENSION);

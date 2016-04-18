@@ -26,8 +26,8 @@ public class SimpleTest {
         return ad;
     }
 
-    public static SimpleTest getTest(int lid) {
-        String s = new String(PathConstants.FL + PathConstants.PYTHONLIBS_WAY + Main.lessonFileName[lid] + ".py");
+    public static SimpleTest getTest(int tid) {
+        String s = PathConstants.FL + PathConstants.PYTHONLIBS_WAY + Main.testFileName[tid] + ".py";
         File file = new File(s);
         if (file.exists())
             return addition(s);
