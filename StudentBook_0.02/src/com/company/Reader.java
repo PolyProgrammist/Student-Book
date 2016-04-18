@@ -5,9 +5,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-/**
- * Created by vadim on 30.03.2016.
- */
 public class Reader {
     private String way;
     private String fileName;

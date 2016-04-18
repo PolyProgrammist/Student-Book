@@ -1,8 +1,5 @@
 package com.company;
 
-/**
- * Created by vadim on 29.03.2016.
- */
 public class ChooseLessonMenu {
     boolean lesson;
     String name;
@@ -14,6 +11,8 @@ public class ChooseLessonMenu {
         this.name = name;
         this.lesson = lesson;
         this.children = children;
+
+
     }
 
     public ChooseLessonMenu() {

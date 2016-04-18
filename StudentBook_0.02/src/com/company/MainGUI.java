@@ -4,9 +4,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-/**
- * Created by vadim on 28.03.2016.
- */
 public class MainGUI extends JFrame{
     final Profile profile = new Profile(this);
     final LessonController lessonController = new LessonController(this);
@@ -168,7 +165,7 @@ public class MainGUI extends JFrame{
         else
             testPanel.setVisible(false);
     }
-    
+
     public void addLessonOnLPane(int nowLessonID) {
         Reader rd = new Reader(PathConstants.FL + PathConstants.LESSONS_WAY, Main.lessonFileName[nowLessonID] + PathConstants.LESSON_EXTENSION);
         mainLessonTextPane.setText(rd.nextTextFile());

@@ -1,8 +1,5 @@
 package com.company;
 
-/**
- * Created by vadim on 17.04.2016.
- */
 public class PathConstants {
     public static final String TREES_WAY = "LessonTrees\\";
     public static final String CONNECTIONS_FILE_NAME = "Connections.aai";

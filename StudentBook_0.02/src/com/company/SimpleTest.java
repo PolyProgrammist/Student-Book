@@ -1,14 +1,10 @@
 package com.company;
 
-import org.python.core.*;
+import org.python.core.PySystemState;
 import org.python.util.PythonInterpreter;
 
 import java.io.File;
-import java.util.Random;
 
-/**
- * Created by vadim on 15.04.2016.
- */
 public class SimpleTest {
     String task, expression;
     String answer;

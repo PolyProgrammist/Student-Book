@@ -1,8 +1,5 @@
 package com.company;
 
-/**
- * Created by vadim on 01.04.2016.
- */
 public class HaveStudiedCalc {
     boolean[] haveStudiedInitial;
     int[][] anticonnections, connections;

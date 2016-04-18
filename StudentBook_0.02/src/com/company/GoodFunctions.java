@@ -1,13 +1,7 @@
 package com.company;
 
 import java.awt.*;
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Vector;
 
-/**
- * Created by vadim on 01.04.2016.
- */
 public class GoodFunctions {
     public static boolean[] intArrayToBooleanArray(int[] ints, int n) {
         boolean[] res = new boolean[n];
