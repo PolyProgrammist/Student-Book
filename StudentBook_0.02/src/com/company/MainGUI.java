@@ -22,12 +22,8 @@ public class MainGUI extends JFrame{
     JPanel tmpPane;
     JCheckBox tmpCheckBox;
 
-    JLabel testTaskTextLabel;
-    JLabel testThisProblemLabel;
-    JTextField testAnswerField;
-    JButton testAnswerButton;
-    JPanel testPanel;
-    SimpleTest st;
+    TestPanel[] testPanels;
+    JPanel testPanelForPanels;
 
     public static void launch(){
         SwingUtilities.invokeLater(MainGUI::new);
@@ -73,14 +69,14 @@ public class MainGUI extends JFrame{
         gbc.gridy = 2;
         frame.add(mainLessonTextPane, gbc);
         gbc.gridy = 3;
-        frame.add(testPanel, gbc);
+        frame.add(testPanelForPanels, gbc);
     }
     private void prepareFrameComponents() {
         prepareMenuBar();
         prepareStudiedIndicatorPanel();
         prepareLessonMatherialPanel();
         prepareToolBar();
-        prepareTestPanel();
+        prepareTestPanels();
         lessonController.addLesson(-1);
     }
 
@@ -108,17 +104,9 @@ public class MainGUI extends JFrame{
         randomLesson.addActionListener(e -> lessonController.addLesson(profile.getRandomRelevantLesson(lessonController.getNowLessonID())));
         jtb.add(randomLesson);
     }
-    private void prepareTestPanel() {
-        testTaskTextLabel = new JLabel("Task");
-        testThisProblemLabel = new JLabel("Expression");
-        testAnswerField = new JTextField("");
-        testAnswerButton = new JButton("Check Answer");
-        testPanel = new JPanel(new BorderLayout());
-        testPanel.add(testTaskTextLabel, BorderLayout.NORTH);
-        testPanel.add(testThisProblemLabel, BorderLayout.CENTER);
-        testPanel.add(testAnswerField, BorderLayout.SOUTH);
-        testPanel.add(testAnswerButton, BorderLayout.EAST);
-        testPanel.setVisible(false);
+    private void prepareTestPanels() {
+        testPanelForPanels = new JPanel();
+
     }
     private void prepareMenuBar() {
         mainMenuBar  = new JMenuBar();
@@ -137,6 +125,8 @@ public class MainGUI extends JFrame{
         lessonController.chooseLessonMenuWorker(classesMenu, Main.classes, 0);
     }
 
+    //<editor-fold desc="testcode">
+    /*
     private void checkAnswer(int lid){
         String usans = testAnswerField.getText();
         if (usans == null || usans.equals(""))
@@ -165,6 +155,8 @@ public class MainGUI extends JFrame{
         else
             testPanel.setVisible(false);
     }
+    */
+    //</editor-fold>
 
     public void addLessonOnLPane(int nowLessonID) {
         Reader rd = new Reader(PathConstants.FL + PathConstants.LESSONS_WAY, Main.lessonFileName[nowLessonID] + PathConstants.LESSON_EXTENSION);
