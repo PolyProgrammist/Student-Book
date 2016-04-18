@@ -18,7 +18,6 @@ public class Reader {
     public Reader(String way, String fileName) {
         setPath(way, fileName);
     }
-
     public int[][] nextIntArrayArray() {
         if (!scannerOk)
             return null;
@@ -29,7 +28,6 @@ public class Reader {
             res[i] = nextIntArray();
         return res;
     }
-
     public int[] nextIntArray() {
         if (!scannerOk)
             return null;
@@ -41,7 +39,6 @@ public class Reader {
         }
         return res;
     }
-
     public String[] nextStringArray() {
         if (!scannerOk)
             return null;
@@ -54,7 +51,6 @@ public class Reader {
         }
         return res;
     }
-
     public ChooseLessonMenu[] nextCLM_Array() {
         if (!scannerOk)
             return null;
@@ -78,7 +74,6 @@ public class Reader {
         }
         return res;
     }
-
     public String nextTextFile(){
         if (!scannerOk)
             return null;
@@ -91,7 +86,6 @@ public class Reader {
     public void setFileName(String fileName) {
         setPath(this.way, fileName);
     }
-
     public void setPath(String way, String fileName){
         this.way = way;
         this.fileName = fileName;
