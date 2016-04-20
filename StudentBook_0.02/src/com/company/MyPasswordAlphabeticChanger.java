@@ -8,7 +8,7 @@ public class MyPasswordAlphabeticChanger extends AlphabeticChanger{
         super(alph(), shuffleSeed, MyPasswordAlphabeticChanger::getID);
     }
 
-    private static int getID(char c){
+    public static int getID(char c){
         return Character.isDigit(c) ? c - '0' : (Character.isLowerCase(c) ? c - 'a' : (Character.isUpperCase(c)  ? c - 'A' + lets : -1)) + digs;
     }
     private static String alph(){

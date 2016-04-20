@@ -6,6 +6,13 @@ public final class Password {
 
     private Password(){}
 
+    public boolean checkGood(String ins) {
+        for (int i = 0; i < ins.length(); i++)
+            if (MyPasswordAlphabeticChanger.getID(ins.charAt(i)) == -1)
+                return false;
+        return true;
+    }
+
     public static String encrypt(String ins){
         String res = ins;
         MyPasswordAlphabeticChanger mpac = new MyPasswordAlphabeticChanger(shuffleSeedAlp);

@@ -7,15 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aca75b23-dfba-44ca-8e57-8f6f3e059fd1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/AlphabeticChanger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/MyPasswordAlphabeticChanger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/Password.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/Shuffler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/ChooseLessonMenu.class" afterPath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/ChooseLessonMenu.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/Main.class" afterPath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/SimpleTest.class" afterPath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/SimpleTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/LessonController.java" afterPath="$PROJECT_DIR$/src/com/company/LessonController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/MainGUI.java" afterPath="$PROJECT_DIR$/src/com/company/MainGUI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/AlphabeticChanger.java" afterPath="$PROJECT_DIR$/src/com/company/AlphabeticChanger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/MyPasswordAlphabeticChanger.java" afterPath="$PROJECT_DIR$/src/com/company/MyPasswordAlphabeticChanger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Password.java" afterPath="$PROJECT_DIR$/src/com/company/Password.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="StudentBook_0.02.iws" />
@@ -38,14 +35,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17160687">
-              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
               <folding>
                 <element signature="method#loadEnvironmentFromFiles#0;class#Main#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Password.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Password.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.27457097">
+              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+              <folding>
+                <element signature="method#checkGood#0;class#Password#0" expanded="false" />
+                <element signature="method#encrypt#0;class#Password#0" expanded="false" />
+                <element signature="method#decrypt#0;class#Password#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AlphabeticChanger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/AlphabeticChanger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
+              <folding>
+                <element signature="class#195:298" expanded="false" />
+                <element signature="method#somenged#0;class#AlphabeticChanger#0" expanded="false" />
+                <element signature="method#modulo#0;class#AlphabeticChanger#0" expanded="false" />
+                <element signature="method#antimodulo#0;class#AlphabeticChanger#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyPasswordAlphabeticChanger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/MyPasswordAlphabeticChanger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -114,10 +150,10 @@
         <option value="$PROJECT_DIR$/src/com/company/AlphabeticShuffler.java" />
         <option value="$PROJECT_DIR$/src/com/company/SomeProfileHandler.java" />
         <option value="$PROJECT_DIR$/src/com/company/Shuffler.java" />
-        <option value="$PROJECT_DIR$/src/com/company/MyPasswordAlphabeticChanger.java" />
-        <option value="$PROJECT_DIR$/src/com/company/AlphabeticChanger.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Password.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/AlphabeticChanger.java" />
+        <option value="$PROJECT_DIR$/src/com/company/MyPasswordAlphabeticChanger.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Password.java" />
       </list>
     </option>
   </component>
@@ -661,7 +697,13 @@
       <option name="project" value="LOCAL" />
       <updated>1461008510278</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="PasswordCryptor/Encryptor added">
+      <created>1461177318455</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1461177318455</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -754,7 +796,8 @@
     <MESSAGE value="Just try boxly" />
     <MESSAGE value="That's done&#10;BoLayout instead of GridBagLayout&#10;I'm so stupid" />
     <MESSAGE value="Pretty good&#10;Multiple Tests are available" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pretty good&#10;Multiple Tests are available" />
+    <MESSAGE value="PasswordCryptor/Encryptor added" />
+    <option name="LAST_COMMIT_MESSAGE" value="PasswordCryptor/Encryptor added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1034,6 +1077,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1048,6 +1092,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#checkAnswer#0;class#TestPanel#0" expanded="false" />
+            <element signature="method#TestPanel#0;class#TestPanel#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1055,6 +1104,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding>
+            <element signature="method#nextIntArrayArray#0;class#Reader#0" expanded="false" />
+            <element signature="method#nextIntArray#0;class#Reader#0" expanded="false" />
+            <element signature="method#nextStringArray#0;class#Reader#0" expanded="false" />
+            <element signature="method#nextCLM_Array#0;class#Reader#0" expanded="false" />
+            <element signature="method#nextTextFile#0;class#Reader#0" expanded="false" />
+            <element signature="method#setPath#0;class#Reader#0" expanded="false" />
+            <element signature="method#closeReader#0;class#Reader#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1069,6 +1127,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09166667">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="method#intArrayToBooleanArray#0;class#GoodFunctions#0" expanded="false" />
+            <element signature="method#makeTransParentGraph#0;class#GoodFunctions#0" expanded="false" />
+            <element signature="method#getRedToGreen#0;class#GoodFunctions#0" expanded="false" />
+            <element signature="method#graphPrinter#0;class#GoodFunctions#0" expanded="false" />
+            <element signature="method#addElementToArray#0;class#GoodFunctions#0" expanded="false" />
+            <element signature="method#getPos#0;class#GoodFunctions#0" expanded="false" />
+            <element signature="method#eraseElementInArray#0;class#GoodFunctions#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1105,7 +1172,6 @@
             <element signature="method#changeHaveStudiedInformation#0;class#SomeProfileHandler#0" expanded="false" />
             <element signature="method#fillStudied#0;class#SomeProfileHandler#0" expanded="false" />
             <element signature="method#nextProfile#0;class#SomeProfileHandler#0" expanded="false" />
-            <element signature="class#IUsersMethodsHandler#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1151,40 +1217,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/AlphabeticChanger.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
           <folding>
-            <element signature="class#195:298" expanded="false" />
-            <element signature="method#somenged#0;class#AlphabeticChanger#0" expanded="false" />
-            <element signature="method#checkGood#0;class#AlphabeticChanger#0" expanded="false" />
+            <element signature="method#loadEnvironmentFromFiles#0;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Password.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/AlphabeticChanger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45085803">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="class#195:298" expanded="false" />
+            <element signature="method#somenged#0;class#AlphabeticChanger#0" expanded="false" />
+            <element signature="method#modulo#0;class#AlphabeticChanger#0" expanded="false" />
+            <element signature="method#antimodulo#0;class#AlphabeticChanger#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/MyPasswordAlphabeticChanger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3775351">
-          <caret line="11" column="144" selection-start-line="11" selection-start-column="144" selection-end-line="11" selection-end-column="144" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Password.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17160687">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.27457097">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
           <folding>
-            <element signature="method#loadEnvironmentFromFiles#0;class#Main#0" expanded="false" />
+            <element signature="method#checkGood#0;class#Password#0" expanded="false" />
+            <element signature="method#encrypt#0;class#Password#0" expanded="false" />
+            <element signature="method#decrypt#0;class#Password#0" expanded="false" />
           </folding>
         </state>
       </provider>

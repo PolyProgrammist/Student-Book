@@ -27,7 +27,7 @@ public class AlphabeticChanger {
             res += alphabet.charAt((did ? shuffler.shuf : shuffler.antishuf)[idg.getID(ins.charAt(i))]);
         return res;
     }
-    private boolean checkGood(String ins) {
+    public boolean checkGood(String ins) {
         for (int i = 0; i < ins.length(); i++)
             if (idg.getID(ins.charAt(i)) == -1)
                 return false;
