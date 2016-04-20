@@ -9,6 +9,7 @@ public class MainGUI extends JFrame{
     final Profile profile = new Profile(this);
     final LessonController lessonController = new LessonController(this);
     private final SomeProfileHandler someProfileHandler = new SomeProfileHandler(this);
+
     JFrame frame;
 
     JTextPane mainLessonTextPane;
@@ -19,12 +20,11 @@ public class MainGUI extends JFrame{
     JMenuBar mainMenuBar;
     JMenu topicsMenu = new JMenu(), classesMenu = new JMenu();
 
-    JLabel tmpLabel;
-    JPanel tmpPane;
-    JCheckBox tmpCheckBox;
+    JLabel haveStudiedLabel;
+    JCheckBox haveStudiedCheckBox;
+    JPanel haveStudiedPane;
 
-    TestPanel[] testPanels;
-    JPanel testPanelForPanels;
+    JPanel panelForTestPanels;
 
     public static void launch(){
         SwingUtilities.invokeLater(MainGUI::new);
@@ -53,9 +53,9 @@ public class MainGUI extends JFrame{
     private void addFrameComponents(){
         frame.setJMenuBar(mainMenuBar);
         frame.setLayout(new BoxLayout(frame.getContentPane(), BoxLayout.Y_AXIS));
-        frame.add(tmpPane);
+        frame.add(haveStudiedPane);
         frame.add(mainLessonTextPane);
-        frame.add(testPanelForPanels);
+        frame.add(panelForTestPanels);
     }
     private void prepareFrameComponents() {
         prepareMenuBar();
@@ -67,19 +67,21 @@ public class MainGUI extends JFrame{
     }
 
     private void prepareStudiedIndicatorPanel() {
-        tmpLabel = new JLabel();
-        tmpLabel.setOpaque(true);
+        haveStudiedLabel = new JLabel();
+        haveStudiedLabel.setOpaque(true);
 
-        tmpCheckBox = new JCheckBox();
-        tmpCheckBox.setOpaque(true);
-        tmpCheckBox.addActionListener(e -> someProfileHandler.lessonStudiedChange(tmpCheckBox.isSelected()));
+        haveStudiedCheckBox = new JCheckBox();
+        haveStudiedCheckBox.setOpaque(true);
+        haveStudiedCheckBox.addActionListener(e -> someProfileHandler.lessonStudiedChange(haveStudiedCheckBox.isSelected()));
 
-        tmpPane = new JPanel(new FlowLayout(FlowLayout.LEADING, 0, 0));
-        tmpPane.add(tmpCheckBox);
-        tmpPane.add(tmpLabel);
+        haveStudiedPane = new JPanel(new FlowLayout(FlowLayout.LEADING, 0, 0));
+        haveStudiedPane.add(haveStudiedCheckBox);
+        haveStudiedPane.add(haveStudiedLabel);
     }
     private void prepareLessonMatherialPanel() {
         mainLessonTextPane = new JTextPane();
+        Font now = mainLessonTextPane.getFont();
+        mainLessonTextPane.setFont(new Font(now.getName(), now.getStyle(), 18));
         mainLessonTextPane.setEditable(false);
     }
     private void prepareToolBar() {
@@ -91,8 +93,8 @@ public class MainGUI extends JFrame{
         jtb.add(randomLesson);
     }
     private void prepareTestPanels() {
-        testPanelForPanels = new JPanel();
-        testPanelForPanels.setLayout(new BoxLayout(testPanelForPanels, BoxLayout.Y_AXIS));
+        panelForTestPanels = new JPanel();
+        panelForTestPanels.setLayout(new BoxLayout(panelForTestPanels, BoxLayout.Y_AXIS));
     }
     private void prepareMenuBar() {
         mainMenuBar  = new JMenuBar();
@@ -112,32 +114,30 @@ public class MainGUI extends JFrame{
     }
 
     void addTests(int lid){
-        testPanelForPanels.removeAll();
+        panelForTestPanels.removeAll();
         if (lid == -1)
             return;
         for (int tid : Main.lesToTests[lid])
-            testPanelForPanels.add(new TestPanel(tid));
+            panelForTestPanels.add(new TestPanel(tid));
     }
 
-    public void addLessonOnLPane(int nowLessonID) {
-        Reader rd = new Reader(PathConstants.FL + PathConstants.LESSONS_WAY, Main.lessonFileName[nowLessonID] + PathConstants.LESSON_EXTENSION);
-        mainLessonTextPane.setText(rd.nextTextFile());
-        rd.closeReader();
+    public void addLessonOnLPane(String lesson) {
+        mainLessonTextPane.setText(lesson);
     }
     public void addDefaultOnLessonPane() {
         mainLessonTextPane.setText("Your ad could be here");
     }
     public void fillStudied(boolean st) {
         boolean needToShow = profile.getProfileName() != null && lessonController.getNowLessonID() != -1;
-        tmpPane.setVisible(needToShow);
+        haveStudiedPane.setVisible(needToShow);
         if (needToShow) {
             profile.getHaveStudied()[lessonController.getNowLessonID()] = st;
-            tmpCheckBox.setSelected(st);
-            tmpLabel.setText(st ? "Studied" : "Not Studied");
+            haveStudiedCheckBox.setSelected(st);
+            haveStudiedLabel.setText(st ? "Studied" : "Not Studied");
             Color c = GoodFunctions.getRedToGreen(st ? 1 : 0);
-            tmpLabel.setBackground(c);
-            tmpCheckBox.setBackground(c);
-            tmpPane.setBackground(c);
+            haveStudiedLabel.setBackground(c);
+            haveStudiedCheckBox.setBackground(c);
+            haveStudiedPane.setBackground(c);
         }
     }
     public void visibleRandomLesson(boolean can) {

@@ -78,7 +78,9 @@ public class LessonController implements Serializable {
             mainGUI.addDefaultOnLessonPane();
             return;
         }
-        mainGUI.addLessonOnLPane(nowLessonID);
+        Reader rd = new Reader(PathConstants.FL + PathConstants.LESSONS_WAY, Main.lessonFileName[nowLessonID] + PathConstants.LESSON_EXTENSION);
+        mainGUI.addLessonOnLPane(rd.nextTextFile());
+        rd.closeReader();
     }
     void addLesson(int lid) {
         nowLessonID = lid;

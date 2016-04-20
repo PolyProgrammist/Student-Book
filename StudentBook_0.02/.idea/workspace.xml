@@ -6,15 +6,16 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aca75b23-dfba-44ca-8e57-8f6f3e059fd1" name="Default" comment="Pretty good&#10;multip">
+    <list default="true" id="aca75b23-dfba-44ca-8e57-8f6f3e059fd1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/AlphabeticChanger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/MyPasswordAlphabeticChanger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/Password.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/Shuffler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/ChooseLessonMenu.class" afterPath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/ChooseLessonMenu.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/Main.class" afterPath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/ChooseLessonMenu.java" afterPath="$PROJECT_DIR$/src/com/company/ChooseLessonMenu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/SimpleTest.class" afterPath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/SimpleTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/LessonController.java" afterPath="$PROJECT_DIR$/src/com/company/LessonController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="$PROJECT_DIR$/src/com/company/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/MainGUI.java" afterPath="$PROJECT_DIR$/src/com/company/MainGUI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/PathConstants.java" afterPath="$PROJECT_DIR$/src/com/company/PathConstants.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/SimpleTest.java" afterPath="$PROJECT_DIR$/src/com/company/SimpleTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/TestPanel.java" afterPath="$PROJECT_DIR$/src/com/company/TestPanel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="StudentBook_0.02.iws" />
@@ -36,7 +37,20 @@
     <favorites_list name="StudentBook_0.02" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.17160687">
+              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+              <folding>
+                <element signature="method#loadEnvironmentFromFiles#0;class#Main#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -53,11 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/MainMenu.form" />
-        <option value="$PROJECT_DIR$/src/MainMenu.java" />
-        <option value="$PROJECT_DIR$/src/com/company/MainMenu.java" />
-        <option value="$PROJECT_DIR$/src/com/company/MainMenu.form" />
-        <option value="$PROJECT_DIR$/src/Lessons/Topics.sblcm" />
         <option value="$PROJECT_DIR$/src/Lessons/Classes.sbclm" />
         <option value="$PROJECT_DIR$/src/Lessons/Topics.sbclm" />
         <option value="$PROJECT_DIR$/src/Lessons/Multiplication.sblsnx" />
@@ -88,7 +97,6 @@
         <option value="$PROJECT_DIR$/src/read.me" />
         <option value="$PROJECT_DIR$/src/com/company/PahtConstants.java" />
         <option value="$PROJECT_DIR$/src/com/company/MainMenuBar.java" />
-        <option value="$PROJECT_DIR$/src/com/company/SomeProfileHandler.java" />
         <option value="$PROJECT_DIR$/src/com/company/Profile.java" />
         <option value="$PROJECT_DIR$/src/com/company/GoodFunctions.java" />
         <option value="$PROJECT_DIR$/src/com/company/HaveStudiedCalc.java" />
@@ -96,13 +104,20 @@
         <option value="$PROJECT_DIR$/var/lib/PythonTests/idToTestFileName.ai" />
         <option value="$PROJECT_DIR$/var/lib/PythonTests/idToTestFileName.as" />
         <option value="$PROJECT_DIR$/var/lib/LessonTrees/CorrespondingTests.aai" />
-        <option value="$PROJECT_DIR$/src/com/company/LessonController.java" />
         <option value="$PROJECT_DIR$/src/com/company/PathConstants.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/SimpleTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/TestPanel.java" />
-        <option value="$PROJECT_DIR$/src/com/company/MainGUI.java" />
         <option value="$PROJECT_DIR$/src/com/company/ChooseLessonMenu.java" />
+        <option value="$PROJECT_DIR$/src/com/company/LessonController.java" />
+        <option value="$PROJECT_DIR$/var/lib/Lessons/Addition.sblsnx" />
+        <option value="$PROJECT_DIR$/src/com/company/MainGUI.java" />
+        <option value="$PROJECT_DIR$/src/com/company/AlphabeticShuffler.java" />
+        <option value="$PROJECT_DIR$/src/com/company/SomeProfileHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Shuffler.java" />
+        <option value="$PROJECT_DIR$/src/com/company/MyPasswordAlphabeticChanger.java" />
+        <option value="$PROJECT_DIR$/src/com/company/AlphabeticChanger.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Password.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
       </list>
     </option>
   </component>
@@ -167,20 +182,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentBook_0.02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentBook_0.02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Problems" />
         <subPane subId="Production">
@@ -244,6 +245,20 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudentBook_0.02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudentBook_0.02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -260,28 +275,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="StudentBook_0.02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentBook_0.02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentBook_0.02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="var" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestsInfo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -333,6 +326,50 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="company" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudentBook_0.02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudentBook_0.02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SomeProfileHandler.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudentBook_0.02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudentBook_0.02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AlphabeticChanger.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -618,12 +655,18 @@
       <option name="project" value="LOCAL" />
       <updated>1461005838700</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Pretty good&#10;Multiple Tests are available">
+      <created>1461008510278</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1461008510278</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -631,12 +674,13 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="896" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3228745" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18645833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18645833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -648,7 +692,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="896" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -676,8 +719,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3228745" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18645833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18645833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -710,11 +753,12 @@
     <MESSAGE value="Some IDEA settings and clearing /*creator*/ inf" />
     <MESSAGE value="Just try boxly" />
     <MESSAGE value="That's done&#10;BoLayout instead of GridBagLayout&#10;I'm so stupid" />
-    <option name="LAST_COMMIT_MESSAGE" value="That's done&#10;BoLayout instead of GridBagLayout&#10;I'm so stupid" />
+    <MESSAGE value="Pretty good&#10;Multiple Tests are available" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pretty good&#10;Multiple Tests are available" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="23" />
+      <option name="time" value="31" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -723,53 +767,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/MainGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#prepareFrame#0;class#MainGUI#0" expanded="false" />
-            <element signature="class#1087:1292" expanded="false" />
-            <element signature="method#windowClosing#0;class#1087:1292" expanded="false" />
-            <element signature="method#addFrameComponents#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#prepareFrameComponents#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#prepareStudiedIndicatorPanel#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#prepareLessonMatherialPanel#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#prepareToolBar#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#prepareTestPanels#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#prepareMenuBar#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#addTests#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#addLessonOnLPane#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#fillStudied#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#showNowProfile#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#doSomethingToShowIfCanGetRelevantLesson#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#addToProfilesJMenu#0;class#MainGUI#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/var/lib/LessonTrees/Classes.sbclm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/var/lib/LessonTrees/Topics.sbclm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/var/lib/Lessons/Multiplication.sblsnx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/var/lib/Lessons/Addition.sblsnx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -783,8 +780,8 @@
           <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding>
             <element signature="method#prepareFrame#0;class#MainGUI#0" expanded="false" />
-            <element signature="class#1087:1292" expanded="false" />
-            <element signature="method#windowClosing#0;class#1087:1292" expanded="false" />
+            <element signature="class#1084:1289" expanded="false" />
+            <element signature="method#windowClosing#0;class#1084:1289" expanded="false" />
             <element signature="method#addFrameComponents#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareFrameComponents#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareStudiedIndicatorPanel#0;class#MainGUI#0" expanded="false" />
@@ -794,7 +791,6 @@
             <element signature="method#prepareMenuBar#0;class#MainGUI#0" expanded="false" />
             <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addTests#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#addLessonOnLPane#0;class#MainGUI#0" expanded="false" />
             <element signature="method#fillStudied#0;class#MainGUI#0" expanded="false" />
             <element signature="method#showNowProfile#0;class#MainGUI#0" expanded="false" />
             <element signature="method#doSomethingToShowIfCanGetRelevantLesson#0;class#MainGUI#0" expanded="false" />
@@ -816,8 +812,8 @@
           <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding>
             <element signature="method#prepareFrame#0;class#MainGUI#0" expanded="false" />
-            <element signature="class#1087:1292" expanded="false" />
-            <element signature="method#windowClosing#0;class#1087:1292" expanded="false" />
+            <element signature="class#1084:1289" expanded="false" />
+            <element signature="method#windowClosing#0;class#1084:1289" expanded="false" />
             <element signature="method#addFrameComponents#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareFrameComponents#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareStudiedIndicatorPanel#0;class#MainGUI#0" expanded="false" />
@@ -827,7 +823,6 @@
             <element signature="method#prepareMenuBar#0;class#MainGUI#0" expanded="false" />
             <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addTests#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#addLessonOnLPane#0;class#MainGUI#0" expanded="false" />
             <element signature="method#fillStudied#0;class#MainGUI#0" expanded="false" />
             <element signature="method#showNowProfile#0;class#MainGUI#0" expanded="false" />
             <element signature="method#doSomethingToShowIfCanGetRelevantLesson#0;class#MainGUI#0" expanded="false" />
@@ -849,8 +844,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#prepareFrame#0;class#MainGUI#0" expanded="false" />
-            <element signature="class#1087:1292" expanded="false" />
-            <element signature="method#windowClosing#0;class#1087:1292" expanded="false" />
+            <element signature="class#1084:1289" expanded="false" />
+            <element signature="method#windowClosing#0;class#1084:1289" expanded="false" />
             <element signature="method#addFrameComponents#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareFrameComponents#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareStudiedIndicatorPanel#0;class#MainGUI#0" expanded="false" />
@@ -860,7 +855,6 @@
             <element signature="method#prepareMenuBar#0;class#MainGUI#0" expanded="false" />
             <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addTests#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#addLessonOnLPane#0;class#MainGUI#0" expanded="false" />
             <element signature="method#fillStudied#0;class#MainGUI#0" expanded="false" />
             <element signature="method#showNowProfile#0;class#MainGUI#0" expanded="false" />
             <element signature="method#doSomethingToShowIfCanGetRelevantLesson#0;class#MainGUI#0" expanded="false" />
@@ -959,13 +953,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/var/lib/Lessons/Addition.sblsnx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/var/lib/LessonTrees/Classes.sbclm">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1019,7 +1006,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,7 +1013,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1035,7 +1020,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1043,62 +1027,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/GoodFunctions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding>
-            <element signature="method#intArrayToBooleanArray#0;class#GoodFunctions#0" expanded="false" />
-            <element signature="method#makeTransParentGraph#0;class#GoodFunctions#0" expanded="false" />
-            <element signature="method#getRedToGreen#0;class#GoodFunctions#0" expanded="false" />
-            <element signature="method#graphPrinter#0;class#GoodFunctions#0" expanded="false" />
-            <element signature="method#addElementToArray#0;class#GoodFunctions#0" expanded="false" />
-            <element signature="method#getPos#0;class#GoodFunctions#0" expanded="false" />
-            <element signature="method#eraseElementInArray#0;class#GoodFunctions#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/HaveStudiedCalc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <element signature="method#HaveStudiedCalc#0;class#HaveStudiedCalc#0" expanded="false" />
-            <element signature="method#getFullFinished#0;class#HaveStudiedCalc#0" expanded="false" />
-            <element signature="method#getChange#0;class#HaveStudiedCalc#0" expanded="false" />
-            <element signature="method#DFSChange#0;class#HaveStudiedCalc#0" expanded="false" />
-            <element signature="method#DFS#0;class#HaveStudiedCalc#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/LessonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="95" column="1" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
-          <folding>
-            <element signature="method#chooseLessonMenuWorker#0;class#LessonController#0" expanded="false" />
-            <element signature="method#addThisItemLessonOrNotEnabledTopic#0;class#LessonController#0" expanded="false" />
-            <element signature="method#addThisTopicContainer#0;class#LessonController#0" expanded="false" />
-            <element signature="method#addThisNotEnabledTopic#0;class#LessonController#0" expanded="false" />
-            <element signature="method#addThisLessonToMenu#0;class#LessonController#0" expanded="false" />
-            <element signature="method#addLessonMaterial#0;class#LessonController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="method#main#0;class#Main#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1106,7 +1034,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1114,27 +1041,63 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="129" column="1" selection-start-line="129" selection-start-column="1" selection-end-line="129" selection-end-column="1" />
-          <folding>
-            <element signature="method#saveProfileChanges#0;class#Profile#0" expanded="false" />
-            <element signature="method#changeStudentDialog#0;class#Profile#0" expanded="false" />
-            <element signature="method#profileExists#0;class#Profile#0" expanded="false" />
-            <element signature="method#updateProfilesFile#0;class#Profile#0" expanded="false" />
-            <element signature="method#deleteProfileFile#0;class#Profile#0" expanded="false" />
-            <element signature="method#createNewProfileFile#0;class#Profile#0" expanded="false" />
-            <element signature="method#changeHaveStudiedFromOneEdition#0;class#Profile#0" expanded="false" />
-            <element signature="method#refreshHaveStudiedNewUser#0;class#Profile#0" expanded="false" />
-            <element signature="method#relevantToLearn#0;class#Profile#0" expanded="false" />
-            <element signature="method#getRandomRelevantLesson#0;class#Profile#0" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/TestPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/SimpleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/GoodFunctions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09166667">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/HaveStudiedCalc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.045833334">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/LessonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="82" column="25" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/lib/Lessons/Addition.sblsnx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30889237">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/SomeProfileHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="84" column="1" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
+          <caret line="82" column="4" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
           <folding>
-            <element signature="method#addJMenuProfileHandling#0;class#SomeProfileHandler#0" expanded="false" />
             <element signature="method#deleteUserClick#0;class#SomeProfileHandler#0" expanded="false" />
             <element signature="method#addNewUserClick#0;class#SomeProfileHandler#0" expanded="false" />
             <element signature="method#profilesJMenu#0;class#SomeProfileHandler#0" expanded="false" />
@@ -1147,54 +1110,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/TestPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#checkAnswer#0;class#TestPanel#0" expanded="false" />
-            <element signature="method#TestPanel#0;class#TestPanel#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Reader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-          <folding>
-            <element signature="method#nextIntArrayArray#0;class#Reader#0" expanded="false" />
-            <element signature="method#nextIntArray#0;class#Reader#0" expanded="false" />
-            <element signature="method#nextStringArray#0;class#Reader#0" expanded="false" />
-            <element signature="method#nextCLM_Array#0;class#Reader#0" expanded="false" />
-            <element signature="method#nextTextFile#0;class#Reader#0" expanded="false" />
-            <element signature="method#setPath#0;class#Reader#0" expanded="false" />
-            <element signature="method#closeReader#0;class#Reader#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/SimpleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding>
-            <element signature="method#SimpleTest#0;class#SimpleTest#0" expanded="false" />
-            <element signature="method#addition#0;class#SimpleTest#0" expanded="false" />
-            <element signature="method#getTest#0;class#SimpleTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/MainGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.725429">
-          <caret line="173" column="34" selection-start-line="173" selection-start-column="34" selection-end-line="173" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
           <folding>
             <element signature="method#prepareFrame#0;class#MainGUI#0" expanded="false" />
-            <element signature="class#1087:1292" expanded="false" />
-            <element signature="method#windowClosing#0;class#1087:1292" expanded="false" />
+            <element signature="class#1084:1289" expanded="false" />
+            <element signature="method#windowClosing#0;class#1084:1289" expanded="false" />
             <element signature="method#addFrameComponents#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareFrameComponents#0;class#MainGUI#0" expanded="false" />
             <element signature="method#prepareStudiedIndicatorPanel#0;class#MainGUI#0" expanded="false" />
@@ -1204,11 +1127,64 @@
             <element signature="method#prepareMenuBar#0;class#MainGUI#0" expanded="false" />
             <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addTests#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#addLessonOnLPane#0;class#MainGUI#0" expanded="false" />
             <element signature="method#fillStudied#0;class#MainGUI#0" expanded="false" />
             <element signature="method#showNowProfile#0;class#MainGUI#0" expanded="false" />
             <element signature="method#doSomethingToShowIfCanGetRelevantLesson#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addToProfilesJMenu#0;class#MainGUI#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Shuffler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Shuffler#0;class#Shuffler#0" expanded="false" />
+            <element signature="method#antishuffle#0;class#Shuffler#0" expanded="false" />
+            <element signature="method#shuffle#0;class#Shuffler#0" expanded="false" />
+            <element signature="method#aliOrder#0;class#Shuffler#0" expanded="false" />
+            <element signature="e#1039#1048#0" expanded="true" />
+            <element signature="method#somefled#0;class#Shuffler#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/AlphabeticChanger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
+          <folding>
+            <element signature="class#195:298" expanded="false" />
+            <element signature="method#somenged#0;class#AlphabeticChanger#0" expanded="false" />
+            <element signature="method#checkGood#0;class#AlphabeticChanger#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Password.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45085803">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/MyPasswordAlphabeticChanger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3775351">
+          <caret line="11" column="144" selection-start-line="11" selection-start-column="144" selection-end-line="11" selection-end-column="144" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17160687">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding>
+            <element signature="method#loadEnvironmentFromFiles#0;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
