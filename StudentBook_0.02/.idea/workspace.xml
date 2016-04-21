@@ -7,26 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aca75b23-dfba-44ca-8e57-8f6f3e059fd1" name="Default" comment="Password good symbols checker">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/lib/ProfilesInfo/NotPasswords.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/lib/ProfilesInfo/Администратор.ai" />
-      <change type="DELETED" beforePath="C:\Users\vadim\Documents\Home\Коды запуска ракет\Home\Progs\NowProjects\StudentBook\conference11\StudentBook_0.02\var\lib\ProfilesInfo\Evgenia.ai" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\vadim\Documents\Home\Коды запуска ракет\Home\Progs\NowProjects\StudentBook\conference11\StudentBook_0.02\var\lib\ProfilesInfo\Lol.ai" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/lib/ProfilesInfo/Vadim.ai" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/Main.class" afterPath="$PROJECT_DIR$/out/production/StudentBook_0.02/com/company/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/lib/Lessons/BFS.sblsnx" afterPath="$PROJECT_DIR$/var/lib/Lessons/BFS.sblsnx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/lib/Lessons/DFS.sblsnx" afterPath="$PROJECT_DIR$/var/lib/Lessons/DFS.sblsnx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/lib/Lessons/GraphTheoryGlossary.sblsnx" afterPath="$PROJECT_DIR$/var/lib/Lessons/GraphTheoryGlossary.sblsnx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/LessonController.java" afterPath="$PROJECT_DIR$/src/com/company/LessonController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="$PROJECT_DIR$/src/com/company/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/MainGUI.java" afterPath="$PROJECT_DIR$/src/com/company/MainGUI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/lib/Lessons/MainTrigonometricalIdentity.sblsnx" afterPath="$PROJECT_DIR$/var/lib/Lessons/MainTrigonometricalIdentity.sblsnx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/lib/Lessons/Multiplication.sblsnx" afterPath="$PROJECT_DIR$/var/lib/Lessons/Multiplication.sblsnx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Password.java" afterPath="$PROJECT_DIR$/src/com/company/Password.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/PathConstants.java" afterPath="$PROJECT_DIR$/src/com/company/PathConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/StudentBook_0_02_jar.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Profile.java" afterPath="$PROJECT_DIR$/src/com/company/Profile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/lib/ProfilesInfo/Profiles.as" afterPath="$PROJECT_DIR$/var/lib/ProfilesInfo/Profiles.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/SomeProfileHandler.java" afterPath="$PROJECT_DIR$/src/com/company/SomeProfileHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/lib/Lessons/TrigonometricalFunctions.sblsnx" afterPath="$PROJECT_DIR$/var/lib/Lessons/TrigonometricalFunctions.sblsnx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="StudentBook_0.02.iws" />
@@ -49,21 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MainGUI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/MainGUI.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="213" column="24" selection-start-line="213" selection-start-column="24" selection-end-line="213" selection-end-column="24" />
+              <caret line="178" column="2" selection-start-line="178" selection-start-column="2" selection-end-line="178" selection-end-column="2" />
               <folding>
                 <element signature="method#prepareFrameComponents#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#prepareStudiedIndicatorPanel#0;class#MainGUI#0" expanded="false" />
@@ -71,75 +44,43 @@
                 <element signature="method#prepareTestPanels#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#addTests#0;class#MainGUI#0" expanded="false" />
-                <element signature="e#5080#5081#0" expanded="true" />
-                <element signature="e#5137#5138#0" expanded="true" />
                 <element signature="method#fillStudied#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#showNowProfile#0;class#MainGUI#0" expanded="false" />
                 <element signature="method#doSomethingToShowIfCanGetRelevantLesson#0;class#MainGUI#0" expanded="false" />
-                <element signature="e#8358#8359#0" expanded="true" />
-                <element signature="e#8408#8409#0" expanded="true" />
+                <element signature="e#6659#6660#0" expanded="true" />
+                <element signature="method#inputNewPassword#0;class#MainGUI#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChooseLessonMenu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/ChooseLessonMenu.java">
+      <file leaf-file-name="SimpleTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/SimpleTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SomeProfileHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/SomeProfileHandler.java">
+      <file leaf-file-name="Shuffler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Shuffler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="84" column="34" selection-start-line="84" selection-start-column="34" selection-end-line="84" selection-end-column="34" />
-              <folding>
-                <element signature="method#SomeProfileHandler#0;class#SomeProfileHandler#0" expanded="false" />
-                <element signature="method#addJMenuProfileHandling#0;class#SomeProfileHandler#0" expanded="false" />
-                <element signature="method#addNewUserClick#0;class#SomeProfileHandler#0" expanded="false" />
-                <element signature="method#profilesJMenu#0;class#SomeProfileHandler#0" expanded="false" />
-                <element signature="method#lessonStudiedChange#0;class#SomeProfileHandler#0" expanded="false" />
-                <element signature="method#changeHaveStudiedInformation#0;class#SomeProfileHandler#0" expanded="false" />
-                <element signature="method#fillStudied#0;class#SomeProfileHandler#0" expanded="false" />
-                <element signature="method#nextProfile#0;class#SomeProfileHandler#0" expanded="false" />
-                <element signature="method#enterPassword#0;class#SomeProfileHandler#0" expanded="false" />
-                <element signature="method#inputPassword#0;class#SomeProfileHandler#0" expanded="false" />
-              </folding>
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LessonController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/LessonController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="84" column="25" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="25" />
-              <folding>
-                <element signature="method#chooseLessonMenuWorker#0;class#LessonController#0" expanded="false" />
-                <element signature="method#addThisItemLessonOrNotEnabledTopic#0;class#LessonController#0" expanded="false" />
-                <element signature="method#addThisTopicContainer#0;class#LessonController#0" expanded="false" />
-                <element signature="method#addThisNotEnabledTopic#0;class#LessonController#0" expanded="false" />
-                <element signature="method#addThisLessonToMenu#0;class#LessonController#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Profile.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Profile.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Profile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57566303">
-              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="72" column="14" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="14" />
               <folding>
                 <element signature="method#profileExists#0;class#Profile#0" expanded="false" />
-                <element signature="method#updateStringArrayFIle#0;class#Profile#0" expanded="false" />
-                <element signature="method#deleteProfileFile#0;class#Profile#0" expanded="false" />
-                <element signature="method#createNewProfileFile#0;class#Profile#0" expanded="false" />
                 <element signature="method#changeHaveStudiedFromOneEdition#0;class#Profile#0" expanded="false" />
                 <element signature="method#refreshHaveStudiedNewUser#0;class#Profile#0" expanded="false" />
                 <element signature="method#relevantToLearn#0;class#Profile#0" expanded="false" />
@@ -147,6 +88,39 @@
                 <element signature="method#changePassword#0;class#Profile#0" expanded="false" />
                 <element signature="method#changePasswordDialogs#0;class#Profile#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Profiles.as" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/var/lib/ProfilesInfo/Profiles.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.03464567">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestPanel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/TestPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+              <folding>
+                <element signature="method#checkAnswer#0;class#TestPanel#0" expanded="false" />
+                <element signature="method#TestPanel#0;class#TestPanel#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodFunctions.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/GoodFunctions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -344,6 +318,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="var" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProfilesInfo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudentBook_0.02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudentBook_0.02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -439,7 +435,7 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -734,8 +730,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -743,14 +739,13 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.50625" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="896" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3228745" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3228745" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18645833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.49375" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18645833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32894737" sideWeight="0.49375" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -761,6 +756,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="896" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -842,9 +838,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding>
-            <element signature="method#checkGood#0;class#Password#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -885,13 +878,11 @@
             <element signature="method#prepareTestPanels#0;class#MainGUI#0" expanded="false" />
             <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addTests#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#5080#5081#0" expanded="true" />
-            <element signature="e#5137#5138#0" expanded="true" />
             <element signature="method#fillStudied#0;class#MainGUI#0" expanded="false" />
             <element signature="method#showNowProfile#0;class#MainGUI#0" expanded="false" />
             <element signature="method#doSomethingToShowIfCanGetRelevantLesson#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#8358#8359#0" expanded="true" />
-            <element signature="e#8408#8409#0" expanded="true" />
+            <element signature="e#6659#6660#0" expanded="true" />
+            <element signature="method#inputNewPassword#0;class#MainGUI#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -914,13 +905,11 @@
             <element signature="method#prepareTestPanels#0;class#MainGUI#0" expanded="false" />
             <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
             <element signature="method#addTests#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#5080#5081#0" expanded="true" />
-            <element signature="e#5137#5138#0" expanded="true" />
             <element signature="method#fillStudied#0;class#MainGUI#0" expanded="false" />
             <element signature="method#showNowProfile#0;class#MainGUI#0" expanded="false" />
             <element signature="method#doSomethingToShowIfCanGetRelevantLesson#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#8358#8359#0" expanded="true" />
-            <element signature="e#8408#8409#0" expanded="true" />
+            <element signature="e#6659#6660#0" expanded="true" />
+            <element signature="method#inputNewPassword#0;class#MainGUI#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1015,32 +1004,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/TestPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#checkAnswer#0;class#TestPanel#0" expanded="false" />
-            <element signature="method#TestPanel#0;class#TestPanel#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/SimpleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Shuffler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/AlphabeticChanger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1059,9 +1022,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22916667">
           <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding>
-            <element signature="method#checkGood#0;class#Password#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1069,7 +1029,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16041666">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1077,7 +1036,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1085,15 +1043,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29738563">
           <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/GoodFunctions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1101,7 +1050,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.06864274">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1109,15 +1057,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/var/lib/ProfilesInfo/Profiles.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03432137">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1133,7 +1072,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30889237">
           <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1141,7 +1079,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1149,7 +1086,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1157,7 +1093,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1165,7 +1100,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1173,7 +1107,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13728549">
           <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1181,7 +1114,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1189,7 +1121,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.03432137">
           <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1203,28 +1134,6 @@
             <element signature="method#addThisTopicContainer#0;class#LessonController#0" expanded="false" />
             <element signature="method#addThisNotEnabledTopic#0;class#LessonController#0" expanded="false" />
             <element signature="method#addThisLessonToMenu#0;class#LessonController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/MainGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="213" column="24" selection-start-line="213" selection-start-column="24" selection-end-line="213" selection-end-column="24" />
-          <folding>
-            <element signature="method#prepareFrameComponents#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#prepareStudiedIndicatorPanel#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#prepareToolBar#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#prepareTestPanels#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#addTests#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#5080#5081#0" expanded="true" />
-            <element signature="e#5137#5138#0" expanded="true" />
-            <element signature="method#fillStudied#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#showNowProfile#0;class#MainGUI#0" expanded="false" />
-            <element signature="method#doSomethingToShowIfCanGetRelevantLesson#0;class#MainGUI#0" expanded="false" />
-            <element signature="e#8358#8359#0" expanded="true" />
-            <element signature="e#8408#8409#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1252,19 +1161,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/GoodFunctions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/MainGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="178" column="2" selection-start-line="178" selection-start-column="2" selection-end-line="178" selection-end-column="2" />
+          <folding>
+            <element signature="method#prepareFrameComponents#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#prepareStudiedIndicatorPanel#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#prepareToolBar#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#prepareTestPanels#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#updateMainMenuBar#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#addTests#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#fillStudied#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#showNowProfile#0;class#MainGUI#0" expanded="false" />
+            <element signature="method#doSomethingToShowIfCanGetRelevantLesson#0;class#MainGUI#0" expanded="false" />
+            <element signature="e#6659#6660#0" expanded="true" />
+            <element signature="method#inputNewPassword#0;class#MainGUI#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/TestPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="method#checkAnswer#0;class#TestPanel#0" expanded="false" />
+            <element signature="method#TestPanel#0;class#TestPanel#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/SimpleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Shuffler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Profile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57566303">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="72" column="14" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="14" />
           <folding>
             <element signature="method#profileExists#0;class#Profile#0" expanded="false" />
-            <element signature="method#updateStringArrayFIle#0;class#Profile#0" expanded="false" />
-            <element signature="method#deleteProfileFile#0;class#Profile#0" expanded="false" />
-            <element signature="method#createNewProfileFile#0;class#Profile#0" expanded="false" />
             <element signature="method#changeHaveStudiedFromOneEdition#0;class#Profile#0" expanded="false" />
             <element signature="method#refreshHaveStudiedNewUser#0;class#Profile#0" expanded="false" />
             <element signature="method#relevantToLearn#0;class#Profile#0" expanded="false" />
@@ -1275,6 +1235,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/var/lib/ProfilesInfo/Profiles.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03464567">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -1282,8 +1250,8 @@
         <settings>
           <artifact-editor>
             <show-content>
-              <type id="library" />
               <type id="artifact" />
+              <type id="library" />
             </show-content>
           </artifact-editor>
           <last-edited>StudentBook_0.02:jar</last-edited>
@@ -1291,6 +1259,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

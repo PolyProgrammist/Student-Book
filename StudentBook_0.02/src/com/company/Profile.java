@@ -56,8 +56,7 @@ public class Profile implements Serializable {
         try {
             PrintWriter writer = new PrintWriter(filePath);
             writer.println(ar.length);
-            for (int i = 0; i < ar.length; i++)
-                writer.println(ar[i]);
+            for (String anAr : ar) writer.println(anAr);
             writer.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();

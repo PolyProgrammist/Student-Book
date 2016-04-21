@@ -1,6 +1,0 @@
-You have the triangle with sides a, b, c, angles accordingly x, y, z
-Sinus theorem
-a / sin(x) = b / sin(y) = c / sin(z) = 2 * R,
-Where R is the radius of out circle
-Cosinus theorem
-c^2 = a^2 + b^2 - 2ab * cos(z);
