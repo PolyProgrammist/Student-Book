@@ -62,6 +62,7 @@ public class MainGUI extends JFrame{
     private void addFrameComponents(){
         frame.setJMenuBar(mainMenuBar);
         frame.setLayout(new BoxLayout(frame.getContentPane(), BoxLayout.Y_AXIS));
+        frame.add(jtb);
         frame.add(haveStudiedPane);
         frame.add(mainLessonTextPane);
         frame.add(panelForTestPanels);
@@ -95,8 +96,7 @@ public class MainGUI extends JFrame{
     }
     private void prepareToolBar() {
         jtb = new JToolBar();
-        randomLesson = new JButton();
-        randomLesson.setText("Подходящий урок");
+        randomLesson = new JButton("Подходящий урок");
         randomLesson.setVisible(false);
         randomLesson.addActionListener(e -> lessonController.addLesson(profile.getRandomRelevantLesson(lessonController.getNowLessonID())));
         jtb.add(randomLesson);

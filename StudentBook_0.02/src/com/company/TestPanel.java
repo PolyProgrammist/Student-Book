@@ -11,7 +11,7 @@ public class TestPanel extends JPanel {
     SimpleTest st;
 
     private boolean goodAnswer(String usans) {
-        return usans == st.answer;
+        return usans.equals(st.answer);
     }
     private void checkAnswer(int tid){
         String usans = testAnswerField.getText();
