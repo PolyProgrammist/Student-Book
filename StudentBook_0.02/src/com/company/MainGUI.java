@@ -1,5 +1,7 @@
 package com.company;
 
+import javafx.util.Pair;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.WindowAdapter;
@@ -8,7 +10,7 @@ import java.awt.event.WindowEvent;
 public class MainGUI extends JFrame{
     final Profile profile = new Profile(this);
     final LessonController lessonController = new LessonController(this);
-    private final SomeProfileHandler someProfileHandler = new SomeProfileHandler(this);
+    public final SomeProfileHandler someProfileHandler = new SomeProfileHandler(this);
 
     JFrame frame;
 
@@ -19,12 +21,19 @@ public class MainGUI extends JFrame{
 
     JMenuBar mainMenuBar;
     JMenu topicsMenu = new JMenu(), classesMenu = new JMenu();
+    JMenu profileSettings;
+    JMenuItem changePasswordMenu;
 
     JLabel haveStudiedLabel;
     JCheckBox haveStudiedCheckBox;
     JPanel haveStudiedPane;
 
     JPanel panelForTestPanels;
+    private String from4to15symbs = "The password should contain from 4 to 15 symbols";
+    private String symbsContain =
+            "Password should contain only:" +
+            "\n\tDigits(0..9)" +
+            "\n\tEnglish letters (a..z), (A..Z)";
 
     public static void launch(){
         SwingUtilities.invokeLater(MainGUI::new);
@@ -105,6 +114,12 @@ public class MainGUI extends JFrame{
         mainMenuBar.add(classesMenu);
         JMenu profjm = someProfileHandler.profilesJMenu(Main.profiles);
         mainMenuBar.add(profjm);
+        profileSettings = new JMenu("Settings");
+        changePasswordMenu = new JMenuItem("Change Password");
+        changePasswordMenu.addActionListener(e->profile.changePasswordDialogs());
+        profileSettings.add(changePasswordMenu);
+        addMenuProfSettings();
+        mainMenuBar.add(profileSettings);
         lessonController.menuCreatedTrue();
     }
 
@@ -122,10 +137,12 @@ public class MainGUI extends JFrame{
     }
 
     public void addLessonOnLPane(String lesson) {
+        mainLessonTextPane.setEditable(true);
         mainLessonTextPane.setText(lesson);
+        mainLessonTextPane.setEditable(profile.profileName != null && profile.profileName.equals(profile.admin));
     }
     public void addDefaultOnLessonPane() {
-        mainLessonTextPane.setText("Your ad could be here");
+        addLessonOnLPane("Your ad could be here");
     }
     public void fillStudied(boolean st) {
         boolean needToShow = profile.getProfileName() != null && lessonController.getNowLessonID() != -1;
@@ -173,5 +190,42 @@ public class MainGUI extends JFrame{
     }
     public SomeProfileHandler getSomeProfileHandler() {
         return someProfileHandler;
+    }
+
+    public void addMenuProfSettings() {
+        profileSettings.setVisible(profile.profileName != null);
+    }
+
+    public Pair<String, String> inputNewPassword(){
+        String rules = "" +
+                "If your password is \"0\", you have no password\n" +
+                from4to15symbs + '\n' +
+                symbsContain;
+        JPanel panel = new JPanel();
+        JPasswordField pfin = new JPasswordField(15);
+        JPasswordField conf = new JPasswordField(15);
+        JTextArea jtp = new JTextArea(String.format("Enter the password for %s\n%s", profile.profileName, rules));
+        jtp.setEditable(false);
+        panel.add(jtp);
+        panel.add(pfin);
+        panel.add(conf);
+        int action = JOptionPane.showConfirmDialog(getFrame(), panel, "Password changing", JOptionPane.OK_CANCEL_OPTION);
+        if (action == JOptionPane.CANCEL_OPTION)
+            return null;
+        return new Pair<String, String> (String.valueOf(pfin.getPassword()), String.valueOf(conf.getPassword()));
+    }
+
+    public void differentPasswords() {
+        JOptionPane.showMessageDialog(frame, "You wrote different passwords");
+    }
+    public void shortPassword() {
+        JOptionPane.showMessageDialog(frame, from4to15symbs);
+    }
+    public void badSymbols() {
+        JOptionPane.showMessageDialog(frame, symbsContain);
+    }
+
+    public void setEditableLesson(boolean ed) {
+        mainLessonTextPane.setEditable(ed);
     }
 }

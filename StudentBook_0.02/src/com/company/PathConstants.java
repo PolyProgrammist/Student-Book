@@ -14,6 +14,7 @@ public class PathConstants {
     public static final String TESTS_INFO_WAY = "TestsInfo\\";
     public static final String TESTS_INFO_FILE_NAME = "idToTestFileName.as";
     public static final String ID_TO_TESTS_IDS_FILE_NAME = "CorrespondingTests.aai";
+    public static final String NOT_PASSWORDS_FILE_NAME = "NotPasswords.as";
 
     public static final String FL = "var\\lib\\";
 }

@@ -5,11 +5,13 @@ import java.io.Serializable;
 
 public class LessonController implements Serializable {
     private final MainGUI mainGUI;
+    private final Profile profile;
     boolean menuCreated = false;
     int nowLessonID = -1;
 
     public LessonController(MainGUI mainGUI) {
         this.mainGUI = mainGUI;
+        profile = mainGUI.getProfile();
     }
 
     void chooseLessonMenuWorker(JMenu jm, ChooseLessonMenu[] clm, int v) {
@@ -28,7 +30,7 @@ public class LessonController implements Serializable {
             }
         }
         clm[v].studiedRatio = studiedRatio / (double) clm[v].children.length;
-        if (mainGUI.getProfile().getProfileName() != null && v != 0) {
+        if (profile.getProfileName() != null && v != 0) {
             if (clm[v].children == null)
                 jm.setBackground(GoodFunctions.getRedToGreen(1));
             else
@@ -58,15 +60,15 @@ public class LessonController implements Serializable {
         return studiedRatio;
     }
     double addThisNotEnabledTopic(double studiedRatio, JMenuItem jmi) {
-        if (mainGUI.getProfile().getProfileName() != null)
+        if (profile.getProfileName() != null)
             jmi.setBackground(GoodFunctions.getRedToGreen(1));
         jmi.setEnabled(false);
         studiedRatio += 1;
         return studiedRatio;
     }
     double addThisLessonToMenu(final ChooseLessonMenu chooseLessonMenu, double studiedRatio, JMenuItem jmi) {
-        boolean done = mainGUI.getProfile().getProfileName() != null && mainGUI.getProfile().getHaveStudied()[chooseLessonMenu.lessonID];
-        if (mainGUI.getProfile().getProfileName() != null)
+        boolean done = profile.getProfileName() != null && profile.getHaveStudied()[chooseLessonMenu.lessonID];
+        if (profile.getProfileName() != null)
             jmi.setBackground(GoodFunctions.getRedToGreen(done ? 1 : 0));
         studiedRatio += done ? 1 : 0;
         if (!menuCreated)
@@ -83,6 +85,7 @@ public class LessonController implements Serializable {
         rd.closeReader();
     }
     void addLesson(int lid) {
+        profile.saveAdmin(nowLessonID);
         nowLessonID = lid;
         addLessonMaterial();
         mainGUI.getSomeProfileHandler().fillStudied();

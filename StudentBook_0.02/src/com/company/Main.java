@@ -9,6 +9,7 @@ public class Main {
     public static String[] profiles;
     public static int[][] lesToTests;
     public static String[] testFileName;
+    public static String[] encryptedPasswords;
 
     public static void loadEnvironmentFromFiles(){
         String spc = PathConstants.FL;
@@ -26,6 +27,8 @@ public class Main {
 
         rd.setPath(spc + PathConstants.PROF_INFO_WAY, PathConstants.PROFILES_FILE_NAME);
         profiles = rd.nextStringArray();
+        rd.setFileName(PathConstants.NOT_PASSWORDS_FILE_NAME);
+        encryptedPasswords = rd.nextStringArray();
 
         rd.setPath(spc + PathConstants.TESTS_INFO_WAY, PathConstants.TESTS_INFO_FILE_NAME);
         testFileName = rd.nextStringArray();
