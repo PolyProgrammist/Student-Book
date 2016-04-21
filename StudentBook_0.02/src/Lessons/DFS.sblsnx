@@ -1,8 +1,0 @@
-Depth First Search
-
-DFS(v)
-    used[v] = true;
-    for(children(v))
-        if (!used[child])
-            DFS(child)
-    handling(v)

@@ -1,8 +1,5 @@
 package com.company;
 
-/**
- * Created by vadim on 01.04.2016.
- */
 public class HaveStudiedCalc {
     boolean[] haveStudiedInitial;
     int[][] anticonnections, connections;
@@ -23,10 +20,12 @@ public class HaveStudiedCalc {
                 DFS(i);
         return used;
     }
+
     public boolean[] getChange(int v, boolean pos){
         DFSChange(v, pos, (pos ? anticonnections : connections));
         return haveStudiedInitial;
     }
+
     private void DFSChange(int v, boolean pos, int[][] con){
         haveStudiedInitial[v] = pos;
         for (int i = 0; i < con[v].length; i++)

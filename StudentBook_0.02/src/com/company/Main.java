@@ -7,18 +7,37 @@ public class Main {
     public static int[][] connections;
     public static int[][] anticonnections;
     public static String[] profiles;
-    public static void main(String[] args) {
-        Reader rd = new Reader(Reader.DEFAULT_TREES_WAY, Reader.DEFAULT_ID_TO_LES_FILE_NAME);
+    public static int[][] lesToTests;
+    public static String[] testFileName;
+    public static String[] encryptedPasswords;
+
+    public static void loadEnvironmentFromFiles(){
+        String spc = PathConstants.FL;
+        Reader rd = new Reader(spc + PathConstants.TREES_WAY, PathConstants.ID_TO_LES_FILE_NAME);
         lessonFileName = rd.nextStringArray();
-        rd.setFileName(Reader.DEFAULT_CONNECTIONS_FILE_NAME);
+        rd.setFileName(PathConstants.CONNECTIONS_FILE_NAME);
         connections = rd.nextIntArrayArray();
         anticonnections = GoodFunctions.makeTransParentGraph(connections);
-        rd.setFileName(Reader.DEFAULT_CLASSES_FILE_NAME);
+        rd.setFileName(PathConstants.CLASSES_FILE_NAME);
         classes = rd.nextCLM_Array();
-        rd.setFileName(Reader.DEFAULT_TOPICS_FILE_NAME);
+        rd.setFileName(PathConstants.TOPICS_FILE_NAME);
         topics = rd.nextCLM_Array();
-        rd.setPath(Reader.DEFAULT_PROF_INFO_WAY, Reader.DEFAULT_PROFILES_FILE_NAME);
+        rd.setFileName(PathConstants.ID_TO_TESTS_IDS_FILE_NAME);
+        lesToTests = rd.nextIntArrayArray();
+
+        rd.setPath(spc + PathConstants.PROF_INFO_WAY, PathConstants.PROFILES_FILE_NAME);
         profiles = rd.nextStringArray();
-	    MainMenuBar.launch();
+        rd.setFileName(PathConstants.NOT_PASSWORDS_FILE_NAME);
+        encryptedPasswords = rd.nextStringArray();
+
+        rd.setPath(spc + PathConstants.TESTS_INFO_WAY, PathConstants.TESTS_INFO_FILE_NAME);
+        testFileName = rd.nextStringArray();
+
+        rd.closeReader();
+    }
+
+    public static void main(String[] args) {
+        loadEnvironmentFromFiles();
+	    MainGUI.launch();
     }
 }
